@@ -66,6 +66,16 @@ module.exports = {
         },
       },
     },
+    {
+      resolve: 'gatsby-plugin-sass',
+      options: {
+        useResolveUrlLoader: {
+          options: {
+            sourceMap: true,
+          },
+        },
+      },
+    },
     // {
     //   resolve: 'gatsby-plugin-manifest',
     //   options: {
