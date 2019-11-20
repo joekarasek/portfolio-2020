@@ -1,3 +1,24 @@
 {
-  "title": "Puppet.com Rebuild"
+  "title": "Puppet.com Rebuild",
+  "client": "Puppet",
+  "date": {
+    "start": "2019-08",
+    "end": "2019-11"
+  },
+  "description": "I was brought on as a senior front-end consult and developer specifically tasked with helping to architect and build out the front-end of a JAM-stack based system.",
+  "deliverables": ["Styleguidist Guide", "Significant contribution to architecture"],
+  "tech": [
+    "React",
+    "Gatsby",
+    "Webpack",
+    "Jira",
+    "Wordpress"
+  ],
+  "links": [
+    {
+      "title": "Live",
+      "url": "https://www.puppet.com/"
+    }
+  ],
+  "images": []
 }

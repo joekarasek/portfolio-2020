@@ -1,0 +1,22 @@
+{
+  "title": "Search Functionality Rebuild",
+  "client": "Science Magazine - AAAS.org",
+  "date": {
+    "start": "2017-12",
+    "end": "2018-01"
+  },
+  "description": "This is the first professional React project that I ever worked on. I built a small React app to handle the search functionality for scientific articles. Features included a search bar, various search filters, result cards, and pagination. In addition to building the application, we used a component based approached that adhered to thier existing design system structure.",
+  "deliverables": ["Frontend search functionality for scientific articles including filters, sorting, and pagination", "Component based approach with documentation in Pattern Lab"],
+  "tech": [
+    "React",
+    "Mustache",
+    "Pattern Lab"
+  ],
+  "links": [
+    {
+      "title": "Live",
+      "url": "https://search.sciencemag.org/"
+    }
+  ],
+  "images": []
+}
