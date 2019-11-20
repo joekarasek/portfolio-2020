@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import './card.scss';
 
 export const Card = ({ title, client, date: { start, end } = {}, description, deliverables, tech, links }) => (
   <div className="card">
