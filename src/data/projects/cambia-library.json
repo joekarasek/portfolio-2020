@@ -1,0 +1,24 @@
+{
+  "title": "Cambia Design System Prototype Library",
+  "client": "Cambia Health Insurance",
+  "date": {
+    "start": "2019-08",
+    "end": "2019-11"
+  },
+  "description": "Prototyped a React-based component library and editorial interface.",
+  "deliverables": [
+    "tooling, linting, and testing",
+    "documentation through Storybook",
+    "building support for data models/schema",
+    "prototyping 5 basic components (buttons, cards, etc)",
+    "a single-page React/Redux app utilizing several API's"
+  ],
+  "tech": [
+    "React",
+    "Redux",
+    "Contentful API",
+    "Typescript"
+  ],
+  "links": [],
+  "images": []
+}

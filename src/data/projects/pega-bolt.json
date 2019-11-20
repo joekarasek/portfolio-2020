@@ -1,0 +1,38 @@
+{
+  "title": "Upgrade Bolt to v1",
+  "client": "Pega Systems",
+  "date": {
+    "start": "2018-01",
+    "end": "2018-08"
+  },
+  "description": "Assisted in the development and re-architecture to move from Bolt Design System v0 to v1. A major focus of this project was to organize and strongly type the components in the design system.",
+  "deliverables": [
+    "defining data schema/models for UI components",
+    "building a validation system as a twig extension",
+    "contributing to UI component development",
+    "writing docs",
+    "restructuring build processes to improve performance"
+  ],
+  "tech": [
+    "Pattern Lab",
+    "Twig",
+    "Drupal",
+    "Scss",
+    "Web Component (SkateJs and Preact)"
+  ],
+  "links": [
+    {
+      "title": "Bolt design system",
+      "url": "https://www.boltdesignsystem.com/"
+    },
+    {
+      "title": "Github Repo for Bolt",
+      "url": "https://github.com/bolt-design-system/bolt"
+    },
+    {
+      "title": "Contributors for Bolt",
+      "url": "https://github.com/bolt-design-system/bolt/graphs/contributors"
+    }
+  ],
+  "images": []
+}

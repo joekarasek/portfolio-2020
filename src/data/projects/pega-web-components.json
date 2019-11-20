@@ -1,0 +1,35 @@
+{
+  "title": "Web Component Exploration",
+  "client": "Pega Systems",
+  "date": {
+    "start": "2019-01",
+    "end": "2019-09"
+  },
+  "description": "Interactive Animated Consumer Pathways/Custom Editorial Interface/Drupal Performance. This effort included a lot of research and development in cutting edge Web Component technology and lays the groundwork for a future version of Bolt built completely on Web Components.",
+  "deliverables": [
+    "created a suite of Web Components for an interactive animated UI element",
+    "created a web component for orchestrating animations",
+    "setup up a live DOM editor trained to recognize the web components and allow content authors to edit sites inline"
+  ],
+  "tech": [
+    "Pattern Lab",
+    "Twig",
+    "Drupal",
+    "Scss",
+    "Web Component (SkateJs",
+    "Preact",
+    "LitHTML)",
+    "Grapes.js"
+  ],
+  "links": [
+    {
+      "title": "Micro-journey components",
+      "url": "https://www.boltdesignsystem.com/pattern-lab/?p=viewall-experiments-micro-journeys"
+    },
+    {
+      "title": "In Page Example",
+      "url": "https://www.boltdesignsystem.com/pattern-lab/patterns/06-experiments-micro-journeys-combos--95-in-page-example/06-experiments-micro-journeys-combos--95-in-page-example.html"
+    }
+  ],
+  "images": []
+}
