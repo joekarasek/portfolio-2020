@@ -40,7 +40,7 @@ Project on [Behance](https://www.behance.net/gallery/74172961/Free-Gatsby-portfo
 │   │   └── thumbnail         # cover of your website when it's shared to social media
 │   ├── components          # Components
 │   │   │── common            # Common components
-│   │   │── landing           # Components used on the landing page
+│   │   │── landing           templates
 │   │   └── theme             # Header & Footer
 │   └── pages               # Pages
 └── static                  # favicon & Netlify redirects

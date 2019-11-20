@@ -1,9 +1,9 @@
 import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
-import { Container, Card } from 'components/common';
-import starIcon from 'assets/icons/star.svg';
-import forkIcon from 'assets/icons/fork.svg';
-import { Wrapper, Grid } from './styles';
+import { Container, Card } from '../../common';
+// import starIcon from 'assets/icons/star.svg';
+// import forkIcon from 'assets/icons/fork.svg';
+import './projects.scss';
 
 export const Projects = () => {
   const {
@@ -33,13 +33,13 @@ export const Projects = () => {
     `
   );
   return (
-    <Wrapper as={Container} id="projects">
-      <h2>Projects</h2>
-      <Grid>
+    <div as={Container} id="projects" className="projects">
+      <h2 className="projects__title">Projects</h2>
+      <div className="projects__grid">
         {nodes.map(node => (
           <Card {...node}></Card>
         ))}
-      </Grid>
-    </Wrapper>
+      </div>
+    </div>
   );
 };
