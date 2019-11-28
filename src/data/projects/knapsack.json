@@ -1,0 +1,59 @@
+{
+  "title": "Knapsack - Design System Management Tool",
+  "client": "Basalt",
+  "date": {
+    "start": "2018-07",
+    "end": null
+  },
+  "description": "Knapskack is an open source tool for managing, documenting, and developing component libraries and design systems. It includes a single-page React app GUI, Express/GraphQL backend, and command line tools. I played a central role both the planning and development. We are currently using this to support a design system rebuild at a major health care provider (MSK).",
+  "deliverables": [
+    "live pattern rendering, including support for multiple templating languages (both PHP and Javascript based)",
+    "dynamically generated documentation including prop tables, schema variations, and code samples",
+    "GUI interface for adding documentation and editing site settings",
+    "flexible organization of patterns, components, design tokens and documentation"
+  ],
+  "tech": [
+    "React",
+    "Typescript",
+    "JSON Schema",
+    "GraphQL",
+    "Express",
+    "Node",
+    "PHP",
+    "Twig",
+    "Web Components",
+    "Theo",
+    "Style Dictionary"
+  ],
+  "links": [
+    {
+      "title": "Github Repo",
+      "link": "https://github.com/basaltinc/bedrock"
+    },
+    {
+      "title": "Github Contributors",
+      "link": "https://github.com/basaltinc/bedrock/graphs/contributors"
+    },
+    {
+      "title": "MSK's Design System on Knapsack",
+      "link": "https://msk.clients.basalt.io/"
+    },
+    {
+      "title": "Live example with design and UI components from Basalt.io",
+      "link": "https://design.basalt.io/"
+    },
+    {
+      "title": "Promo site and docs",
+      "link": "https://www.getbedrock.com/"
+    },
+    {
+      "title": "Example Reporting on a PR",
+      "url": "https://github.com/bolt-design-system/bolt/pull/1123/checks"
+    },
+    {
+      "title": "Example Nightwatch end-to-end testing",
+      "url": "https://github.com/bolt-design-system/bolt/pull/1123/checks?check_run_id=83183429"
+    }
+  ],
+  "images": []
+}

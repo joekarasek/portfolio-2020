@@ -1,0 +1,23 @@
+{
+  "title": "Foodie - Peer-to-peer Marketplace",
+  "client": "Foodie",
+  "date": {
+    "start": "2019-01",
+    "end": "2019-07"
+  },
+  "description": "Foodie is a peer-to-peer market place for home cooked meals. It is built out of React and uses Sharetribe's headless ecommerce Saas on the backend. I was the lead developer on this project.",
+  "deliverables": [
+    "Providing technical leadership including scoping and feature development",
+    "Project management including client communications, ticket tracking, and reporting",
+    "Integration of services such as Stripe and Mapbox",
+    "Setting up CI/CD, hosting, DNS, and a scalable workflow"
+  ],
+  "tech": [],
+  "links": [
+    {
+      "title": "Foodie",
+      "url": "http://www.foodie-share.com/"
+    }
+  ],
+  "images": []
+}

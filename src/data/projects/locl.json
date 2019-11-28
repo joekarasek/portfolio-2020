@@ -1,0 +1,31 @@
+{
+  "title": "LOCL",
+  "client": "Gift2Grow",
+  "date": {
+    "start": "2018-08",
+    "end": "2018-12"
+  },
+  "description": "LOCL is a PDX startup looking to provide businesses meaningful analytics. I was the tech lead and front-end developer on this single page React App (written in Typescript).",
+  "deliverables": [
+    "User sign-up/authentication and profile management",
+    "Business listings",
+    "An Analytics dashboard"
+  ],
+  "tech": [
+    "React",
+    "Typescript",
+    "Django",
+    "Storybook"
+  ],
+  "links": [
+    {
+      "title": "Promo Site",
+      "url": "Promo Site"
+    },
+    {
+      "title": "Live App",
+      "url": "https://app.locl.io/"
+    }
+  ],
+  "images": []
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Basalt.io - Brand Refresh",
+  "client": "Basalt",
+  "date": {
+    "start": "2018-07",
+    "end": "2018-09"
+  },
+  "description": "Lead a rebrand and site refresh.",
+  "deliverables": [
+    "updating the Php CMS (Grav)",
+    "working with designers and content editors",
+    "training a new hire on component driven"
+  ],
+  "tech": [
+    "Twig",
+    "Grav",
+    "MySQL"
+  ],
+  "links": [
+    {
+      "title": "Basalt.io",
+      "link": "www.basalt.io"
+    }
+  ],
+  "images": []
+}
