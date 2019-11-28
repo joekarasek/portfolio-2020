@@ -1,4 +1,4 @@
-export * from './Button';
+export { Button } from './button/button';
 export { Card } from './Card/card';
 export * from './chip/chip';
 export * from './Container';
