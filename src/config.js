@@ -1,10 +1,10 @@
 module.exports = {
-  defaultTitle: 'John Doe',
+  defaultTitle: 'Joe Karasek',
   logo: 'https://portfolio.smakosh.com/favicon/favicon-512.png',
-  author: 'John Doe',
+  author: 'Joe Karasek',
   url: 'https://portfolio.smakosh.com',
-  legalName: 'John Doe',
-  defaultDescription: 'I’m John and I’m a Backend & Devops engineer!',
+  legalName: 'Joe Karasek',
+  defaultDescription: 'This is sort of a dumb place to put content, as content is not config.',
   socialLinks: {
     twitter: 'http://www.twitter.com/smakosh',
     github: 'https://github.com/smakosh',

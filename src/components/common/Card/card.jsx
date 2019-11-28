@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Chip } from '../index';
+import { Chip } from '../chip/chip';
 import './card.scss';
 
 export const Card = ({ title, client, date: { start, end } = {}, description, deliverables, tech, links }) => (
@@ -9,28 +9,11 @@ export const Card = ({ title, client, date: { start, end } = {}, description, de
     {title && <h3 className="card__title">{title}</h3>}
     {start && end && <p className="card__date">{`${start} - ${end}`}</p>}
     {tech && (
-        <div className="card__technologies">
-          {tech.map(tec => (
-              <Chip className="card__technology">{tec}</Chip>
-          ))}
-        </div>
-    )}
-    {description && <p className="card__description">{description}</p>}
-    {deliverables && (
-      <ul className="card__deliverables">
-        {deliverables.map(deliverable => (
-          <li className="card__deliverable">{deliverable}</li>
+      <div className="card__technologies">
+        {tech.map(tec => (
+          <Chip className="card__technology">{tec}</Chip>
         ))}
-      </ul>
-    )}
-    {links && (
-      <ul className="card__links">
-        {links.map(link => (
-          <a href={link.url} className="card__link">
-            {link.title}
-          </a>
-        ))}
-      </ul>
+      </div>
     )}
   </div>
 );

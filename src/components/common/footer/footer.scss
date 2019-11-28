@@ -1,0 +1,17 @@
+.footer {
+  background-color: black;
+  color: white;
+  padding:  30px;
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  &__social {
+    > a {
+      margin: 0 10px;
+    }
+  }
+}
