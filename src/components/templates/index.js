@@ -1,4 +1,2 @@
-export * from './Intro';
-export * from './Skills';
-export * from './Contact';
-export * from './projects/projects.jsx';
+export * from './contact/contact';
+export * from '../../sections/projects/projects.jsx';

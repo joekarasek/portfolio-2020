@@ -1,8 +1,11 @@
+@import "../../../styles/design-tokens";
+
 .header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 20px;
+  border-bottom: 2px solid $my-seafoam;
 
   &__hamburger {
     z-index: 5;
