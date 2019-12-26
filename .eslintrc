@@ -1,5 +1,9 @@
 {
-  "extends": ["wesbos"],
+  "extends": [
+    "airbnb",
+    "eslint:recommended",
+    "plugin:react/recommended"
+  ],
   "rules": {
     "no-console": 2,
     "import/no-unresolved": 0,

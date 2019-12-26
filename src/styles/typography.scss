@@ -1,5 +1,18 @@
 @import "core";
 
+body {
+  font-family: $my-fontfamily-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $my-fontfamily-sans;
+}
+
 //--------
 // Typography
 //
@@ -18,67 +31,92 @@ h6,
 p,
 pre,
 b {
-  margin-top: 0;
-  //margin-bottom: $pm-space-default;
+  margin-top: 0.5em;
+  margin-bottom: 0;
+  line-height: 1.2;
 }
 
-*:last-child {
-  margin-bottom: 0;
+*:first-child {
+  margin-top: 0;
 }
 
 //----------------------------------------------------------------------------------------------------------------------
 // HEADERS
 //----------------------------------------------------------------------------------------------------------------------
 // see src/styles/core/mixins.scss for mixin definitions
-.pm-font-size--h1,
+.u-fontsize--h1,
 h1 {
-  @include pm-font-size--h1();
+  font-size: 35px;
+  @include breakpoint($my-breakpoint-small) {
+    font-size: 40px;
+  }
+  @include breakpoint($my-breakpoint-medium) {
+    font-size: 45px;
+  }
 }
 
-.pm-font-size--h2,
+.u-fontsize--h2,
 h2 {
-  @include pm-font-size--h2();
+  font-size: 32px;
+  @include breakpoint($my-breakpoint-small) {
+    font-size: 35px;
+  }
+  @include breakpoint($my-breakpoint-medium) {
+    font-size: 40px;
+  }
 }
 
-.pm-font-size--h3,
+.u-fontsize--h3,
 h3 {
-  @include pm-font-size--h3();
+  font-size: 28px;
+  @include breakpoint($my-breakpoint-small) {
+    font-size: 30px;
+  }
+  @include breakpoint($my-breakpoint-medium) {
+    font-size: 35px;
+  }
 }
 
-.pm-font-size--h4,
+.u-fontsize--h4,
 h4 {
-  @include pm-font-size--h4();
+  font-size: 28px;
+  @include breakpoint($my-breakpoint-small) {
+    font-size: 30px;
+  }
+  @include breakpoint($my-breakpoint-medium) {
+    font-size: 35px;
+  }
 }
 
-.pm-font-size--h5,
+.u-fontsize--h5,
 h5 {
   @include pm-font-size--h5();
 }
 
-.pm-font-size--h6,
+.u-fontsize--h6,
 h6 {
   @include pm-font-size--h6();
 }
 
-.pm-font-size--p,
-.pm-font-size--lg-copy,
+.u-fontsize--p,
+.u-fontsize--lg-copy,
 p,
 li {
   @include pm-font-size--p();
 }
 
-.pm-font-size--sm,
-.pm-font-size--sm-copy,
+.u-fontsize--sm,
+.u-fontsize--sm-copy,
 small {
   @include pm-font-size--sm();
 }
 
-.pm-font-size--xs,
-.pm-font-size--xs-bold {
+.u-fontsize--xs,
+.u-fontsize--xs-bold {
   @include pm-font-size--xs();
 }
 
 code,
-.pm-font-face-code {
+.u-fontface-code {
   @include pm-font-face-code();
 }

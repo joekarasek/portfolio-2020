@@ -37,7 +37,7 @@ export const Projects = () => {
       <h2 className="projects__title">Projects</h2>
       <div className="projects__grid">
         {nodes.map(node => (
-          <Card {...node}></Card>
+          <Card key={node.id} {...node}></Card>
         ))}
       </div>
     </div>

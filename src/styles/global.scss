@@ -1,10 +1,10 @@
-@import "normalize";
-@import "design-tokens";
+@import "core";
 
+@import "typography";
 
 html {
-  background-color: black;
-  color: $my-seafoam;
+  background-color: $my-grey-dark;
+  color: white;
 }
 
 .container {

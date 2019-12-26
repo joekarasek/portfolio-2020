@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'My Sans';
+  font-style: normal;
+  font-display: fallback;
+  font-weight: 400;
+  src: url('fonts/RobotoMono-Regular.ttf');
+  src: local('RobotoMono'), local('RobotoMono-Regular'),
+    url('fonts/RobotoMono-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'My Sans';
+  font-style: normal;
+  font-display: fallback;
+  font-weight: 700;
+  src: url('fonts/RobotoMono-Bold.ttf');
+  src: local('RobotoMono'), local('RobotoMono-Bold'),
+  url('fonts/RobotoMono-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'My Serif';
+  font-style: normal;
+  font-display: fallback;
+  font-weight: 400;
+  src: url('fonts/RobotoSlab-Regular.ttf');
+  src: local('RobotoSlab'), local('RobotoSlab-Regular'),
+  url('fonts/RobotoSlab-Regular.ttf') format('truetype');
+}
