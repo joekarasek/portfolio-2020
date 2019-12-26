@@ -1,0 +1,77 @@
+{
+  "skills": [
+    {
+      "title": "Javascript",
+      "words": [
+        {
+          "text": "Vanilla",
+          "value": 20
+        },
+        {
+          "text": "React",
+          "value": 20
+        },
+        {
+          "text": "EmberJs",
+          "value": 20
+        },
+        {
+          "text": "Node.js",
+          "value": 20
+        },
+        {
+          "text": "Typescript",
+          "value": 20
+        },
+        {
+          "text": "MomentJS",
+          "value": 20
+        },
+        {
+          "text": "RxJS",
+          "value": 20
+        },
+        {
+          "text": "EsLint",
+          "value": 20
+        },
+        {
+          "text": "Prettier",
+          "value": 20
+        },
+        {
+          "text": "Gulp",
+          "value": 20
+        },
+        {
+          "text": "Webpack",
+          "value": 20
+        },
+        {
+          "text": "Emotion",
+          "value": 20
+        },
+        {
+          "text": "Styled Components",
+          "value": 20
+        },
+        {
+          "text": "JSX",
+          "value": 20
+        },
+        {
+          "text": "Grapes.js",
+          "value": 20
+        },
+        {
+          "text": "Web Components",
+          "value": 20
+        },
+        {
+          "text": "Babel",
+          "value": 20
+        }
+      ]
+    }
+  ]
+}
