@@ -1,6 +1,6 @@
 import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
-import { Container, Card } from '../../components/common';
+import { Card } from '../../components';
 // import starIcon from 'assets/icons/star.svg';
 // import forkIcon from 'assets/icons/fork.svg';
 import './projects.scss';
@@ -33,7 +33,7 @@ export const Projects = () => {
     `
   );
   return (
-    <div as={Container} id="projects" className="projects container">
+    <div id="projects" className="projects container">
       <h2 className="projects__title">Projects</h2>
       <div className="projects__grid">
         {nodes.map(node => (

@@ -1,0 +1,84 @@
+@import "core";
+
+//--------
+// Typography
+//
+// Global styling of typographical html elements including headers and paragraphs
+
+//----------------------------------------------------------------------------------------------------------------------
+// VERTICAL RHYTHM
+//----------------------------------------------------------------------------------------------------------------------
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+pre,
+b {
+  margin-top: 0;
+  //margin-bottom: $pm-space-default;
+}
+
+*:last-child {
+  margin-bottom: 0;
+}
+
+//----------------------------------------------------------------------------------------------------------------------
+// HEADERS
+//----------------------------------------------------------------------------------------------------------------------
+// see src/styles/core/mixins.scss for mixin definitions
+.pm-font-size--h1,
+h1 {
+  @include pm-font-size--h1();
+}
+
+.pm-font-size--h2,
+h2 {
+  @include pm-font-size--h2();
+}
+
+.pm-font-size--h3,
+h3 {
+  @include pm-font-size--h3();
+}
+
+.pm-font-size--h4,
+h4 {
+  @include pm-font-size--h4();
+}
+
+.pm-font-size--h5,
+h5 {
+  @include pm-font-size--h5();
+}
+
+.pm-font-size--h6,
+h6 {
+  @include pm-font-size--h6();
+}
+
+.pm-font-size--p,
+.pm-font-size--lg-copy,
+p,
+li {
+  @include pm-font-size--p();
+}
+
+.pm-font-size--sm,
+.pm-font-size--sm-copy,
+small {
+  @include pm-font-size--sm();
+}
+
+.pm-font-size--xs,
+.pm-font-size--xs-bold {
+  @include pm-font-size--xs();
+}
+
+code,
+.pm-font-face-code {
+  @include pm-font-face-code();
+}

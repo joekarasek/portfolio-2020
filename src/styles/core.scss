@@ -1,0 +1,198 @@
+//--------
+// Mixins
+//
+// Includes commonly used and useful mixins
+
+//--------
+@mixin pm-font-size--h1() {
+  // font-weight: 600; //semi-bold
+  // color: $pm-black;
+  // font-size: 48px;
+  // line-height: 56px;
+
+  // @media screen and (min-width: $pm-break-sm) {
+  //   font-size: 67px;
+  //   line-height: 75px;
+  // }
+
+  // @media screen and (min-width: $pm-break-md) {
+  //   font-size: 77px;
+  //   line-height: 81px;
+  // }
+
+  // use H2 styles for h1s globally
+  @include pm-font-size--h2();
+}
+
+@mixin pm-font-size--h2() {
+  font-weight: normal;
+  color: $pm-black;
+  font-size: 35px;
+  line-height: 40px;
+
+  @media screen and (min-width: $pm-break-sm) {
+    font-size: 45px;
+    line-height: 51px;
+  }
+
+  @media screen and (min-width: $pm-break-md) {
+    font-size: 58px;
+    line-height: 64px;
+  }
+}
+
+@mixin pm-font-size--h3() {
+  font-weight: 600; //semi-bold
+  color: $pm-black;
+  font-size: 31px;
+  line-height: 35px;
+
+  @media screen and (min-width: $pm-break-sm) {
+    font-size: 40px;
+    line-height: 46px;
+  }
+
+  @media screen and (min-width: $pm-break-md) {
+    font-size: 48px;
+    line-height: 54px;
+  }
+}
+
+@mixin pm-font-size--h4() {
+  font-weight: 500;
+  color: $pm-black;
+  font-size: 28px;
+  line-height: 32px;
+
+  @media screen and (min-width: $pm-break-sm) {
+    font-size: 32px;
+    line-height: 36px;
+  }
+
+  @media screen and (min-width: $pm-break-md) {
+    font-size: 40px;
+    line-height: 46px;
+  }
+}
+
+@mixin pm-font-size--h5() {
+  font-weight: 600; //semi-bold
+  color: $pm-black;
+  font-size: 26px;
+  line-height: 32px;
+
+  @media screen and (min-width: $pm-break-sm) {
+    font-size: 28px;
+    line-height: 34px;
+  }
+
+  @media screen and (min-width: $pm-break-md) {
+    font-size: 34px;
+    line-height: 38px;
+  }
+}
+
+@mixin pm-font-size--h6() {
+  // not in comps but an h6 may be generated from a markdown, puppet doc, WYSIWYG, etc
+  color: $pm-black;
+  font-size: 24px;
+  line-height: 28px;
+
+  @media screen and (min-width: $pm-break-sm) {
+    font-size: 27px;
+    line-height: 33px;
+  }
+
+  @media screen and (min-width: $pm-break-md) {
+    font-size: 30px;
+    line-height: 36px;
+  }
+}
+
+@mixin pm-font-size--p() {
+  font-size: 24px;
+  line-height: 32px;
+}
+
+@mixin pm-font-size--sm() {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+@mixin pm-font-size--xs() {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+@mixin pm-font-face-body() {
+  font-family: "marketing-sans";
+}
+
+@mixin pm-font-face-code() {
+  font-family: marketing-mono;
+}
+
+//--------
+// Applies styles if configuration is in debug mode.
+//
+// @label     Display a label in the top left corner of the block element.
+@mixin ifdebug($label: false) {
+  html:not(.css-debug-off) & {
+    @if ($debug-mode == true) {
+      position: relative;
+      @if $label {
+        &:before {
+          position: absolute;
+          top: 0;
+          left: 0;
+          padding: 2px 4px 2px 4px;
+          display: block;
+          border: 1px solid rgba($debug-border-color, 0.25);
+          background-color: rgba($debug-background-color, 0.25);
+          font-size: 50%;
+          font-weight: bold;
+          opacity: 0.6;
+          content: $label !important;
+        }
+      }
+      @content;
+    }
+  }
+}
+
+//--------
+// Executes passed styles on a media query based on one of the major configured breakpoints.
+// Site breakpoints are 'xl', 'lg', 'md', 'sm', and 'xs' where values modifiers map directly
+// to breakpoint width variables in _config.scss.
+//
+// @todo      This has a one-off issue when min-width and max-width are used in conjuction. One or the other needs to be adjusted by 1. Ex. (min-width: 700px) and (max-width: 700px)
+// @bp        Modifier string that determines element width
+// @mode      Changes the min/max width of the breakpoint
+@mixin site-bp($bp, $mode: max-width) {
+  @if $bp == "xl" {
+    @media only all and ($mode: $pm-break-xl) {
+      @content;
+    }
+  } @else if $bp == "lg" {
+    @media only all and ($mode: $pm-break-lg) {
+      @content;
+    }
+  } @else if $bp == "md" {
+    @media only all and ($mode: $pm-break-md) {
+      @content;
+    }
+  } @else if $bp == "sm" {
+    @media only all and ($mode: $pm-break-sm) {
+      @content;
+    }
+  } @else if $bp == "xs" {
+    @media only all and ($mode: $pm-break-xs) {
+      @content;
+    }
+  } @else if type-of($bp) == number {
+    @media only all and ($mode: $bp) {
+      @content;
+    }
+  }
+}

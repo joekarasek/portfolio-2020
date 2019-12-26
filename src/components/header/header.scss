@@ -1,0 +1,29 @@
+@import "../../styles/design-tokens";
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+  &__wrapper {
+    //display: grid;
+    //grid-template-rows: repeat(16, 1fr);
+    //grid-template-columns: repeat(16, 1fr);
+    width: 350px;
+    height: 350px;
+
+    > * {
+      margin: 0;
+    }
+  }
+
+  //&__title {
+  //  grid-column: 1 / 16;
+  //}
+
+  //&__subtitle {
+  //  grid-row: 2;
+  //  grid-column: 1 / 4;
+  //}
+}
