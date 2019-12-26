@@ -27,5 +27,10 @@
       "url": "https://app.locl.io/"
     }
   ],
-  "images": []
+  "images": [
+    {
+      "url": "/images/locl.png",
+      "alt": "LOCL"
+    }
+  ]
 }

@@ -1,5 +1,5 @@
 {
-  "title": "Upgrade Bolt to v1",
+  "title": "Bolt v1",
   "client": "Pega Systems",
   "date": {
     "start": "2018-01",
@@ -34,5 +34,10 @@
       "url": "https://github.com/bolt-design-system/bolt/graphs/contributors"
     }
   ],
-  "images": []
+  "images": [
+    {
+      "url": "/images/pega-bolt.png",
+      "alt": "Pega QA Audit"
+    }
+  ]
 }

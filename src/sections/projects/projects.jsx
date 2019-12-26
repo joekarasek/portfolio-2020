@@ -23,6 +23,10 @@ export const Projects = () => {
             description
             id
             deliverables
+            images {
+              url
+              alt
+            }
             date {
               end
               start
@@ -39,10 +43,10 @@ export const Projects = () => {
         Swipe left to see more...
       </p>
       <div className="projects__grid">
-        {nodes.map(node => (
-          <Card key={node.id} {...node}></Card>
+        {nodes.sort((currentNode, nextNode) => new Date(nextNode.date.start) - new Date(currentNode.date.start)).map(node => (
+          <Card key={node.id} {...node} />
         ))}
-        <div className="projects__scroll-fix-spacer"></div>
+        <div className="projects__scroll-fix-spacer" />
       </div>
 
     </div>

@@ -1,18 +1,17 @@
 {
-  "title": "Refactoring Automated Quality Assurance",
+  "title": "Quality Assurance Audit/Roadmap",
   "client": "Pega Systems",
   "date": {
     "start": "2018-11",
     "end": "2019-02"
   },
-  "description": "Consulted on automated quality assurance, testing and reporting for the Bolt Design System including",
+  "description": "Implemented automated quality assurance, testing and reporting for the Bolt Design System including",
   "deliverables": [
     "interviewing stakeholders",
     "auditing the existing system",
     "researching best practices",
     "preparing recommendations and guidance on testing and quality assurance",
-    "setting up automated reporting using CI and Github Checks API",
-    "setting up end-to-end testing with Selenium, Nightwatch, and Sauce Labs"
+    "authored a report detailing findings and recommendations"
   ],
   "tech": [
     "Github Actions",
@@ -33,5 +32,10 @@
       "url": "https://github.com/bolt-design-system/bolt/pull/1123/checks?check_run_id=83183429"
     }
   ],
-  "images": []
+  "images": [
+    {
+      "url": "/images/pega-qa-audit.png",
+      "alt": "Pega QA Audit"
+    }
+  ]
 }

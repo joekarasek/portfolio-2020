@@ -18,5 +18,10 @@
       "url": "https://search.sciencemag.org/"
     }
   ],
-  "images": []
+  "images": [
+    {
+      "url": "/images/aaas.png",
+      "alt": "AAAS.org - Search Page"
+    }
+  ]
 }

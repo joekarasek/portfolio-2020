@@ -1,5 +1,5 @@
 {
-  "title": "Web Component Editor",
+  "title": "Interactive User Journeys",
   "client": "Pega Systems",
   "date": {
     "start": "2019-01",
@@ -34,8 +34,8 @@
   ],
   "images": [
     {
-      "url": "/images/pega-web-components.png",
-      "alt": "Pega Web Components"
+      "url": "/images/pega-pathways.png",
+      "alt": "Pega User Journeys"
     }
   ]
 }

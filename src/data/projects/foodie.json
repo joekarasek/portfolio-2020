@@ -19,5 +19,10 @@
       "url": "http://www.foodie-share.com/"
     }
   ],
-  "images": []
+  "images": [
+    {
+      "url": "/images/foodie.png",
+      "alt": "foodie-share.com - Home Page"
+    }
+  ]
 }

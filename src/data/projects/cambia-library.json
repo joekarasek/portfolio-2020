@@ -2,8 +2,8 @@
   "title": "Cambia Design System Prototype Library",
   "client": "Cambia Health Insurance",
   "date": {
-    "start": "2019-08",
-    "end": "2019-11"
+    "start": "2018-08",
+    "end": "2018-11"
   },
   "description": "Prototyped a React-based component library and editorial interface.",
   "deliverables": [
@@ -20,5 +20,10 @@
     "Typescript"
   ],
   "links": [],
-  "images": []
+  "images": [
+    {
+      "url": "/images/cambia.png",
+      "alt": "Cambia"
+    }
+  ]
 }

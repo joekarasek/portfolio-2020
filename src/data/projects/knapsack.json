@@ -55,5 +55,10 @@
       "url": "https://github.com/bolt-design-system/bolt/pull/1123/checks?check_run_id=83183429"
     }
   ],
-  "images": []
+  "images": [
+    {
+      "url": "/images/knapsack.png",
+      "alt": "Knapsack"
+    }
+  ]
 }

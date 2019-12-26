@@ -1,0 +1,41 @@
+{
+  "title": "Automated QA Architecture",
+
+  "client": "Pega Systems",
+  "date": {
+    "start": "2018-11",
+    "end": "2019-02"
+  },
+  "description": "Implemented the initial architecture for automated quality assurance, testing and reporting for the Bolt Design System including",
+  "deliverables": [
+    "setting up automated reporting using Travis CI and Github Checks API",
+    "setting up end-to-end testing with Selenium, Nightwatch, and Sauce Labs",
+    "setting up cross-browser visual regression testing through Selenium, Nightwatch, and Sauce Labs",
+    "setting up reporting of builds and linting"
+  ],
+  "tech": [
+    "Github Actions",
+    "Selenium",
+    "NightwatchJS",
+    "Sauce Labs",
+    "Eslint",
+    "Stylelint",
+    "Jest"
+  ],
+  "links": [
+    {
+      "title": "Example Reporting on a PR",
+      "url": "https://github.com/bolt-design-system/bolt/pull/1123/checks"
+    },
+    {
+      "title": "Example Nightwatch end-to-end testing",
+      "url": "https://github.com/bolt-design-system/bolt/pull/1123/checks?check_run_id=83183429"
+    }
+  ],
+  "images": [
+    {
+      "url": "/images/pega-qa-implementation.png",
+      "alt": "Pega QA Implementation"
+    }
+  ]
+}

@@ -22,5 +22,10 @@
       "link": "www.basalt.io"
     }
   ],
-  "images": []
+  "images": [
+    {
+      "url": "/images/basalt.png",
+      "alt": "basalt.io - Home Page"
+    }
+  ]
 }

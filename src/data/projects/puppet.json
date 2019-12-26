@@ -1,5 +1,5 @@
 {
-  "title": "Puppet.com Rebuild",
+  "title": "Puppet.com Rebuild and Rebrand",
   "client": "Puppet",
   "date": {
     "start": "2019-08",
@@ -20,5 +20,10 @@
       "url": "https://www.puppet.com/"
     }
   ],
-  "images": []
+  "images": [
+    {
+      "url": "/images/puppet.png",
+      "alt": "Puppet"
+    }
+  ]
 }
