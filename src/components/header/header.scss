@@ -18,12 +18,31 @@
     }
   }
 
-  //&__title {
-  //  grid-column: 1 / 16;
-  //}
+  &__title {
+    color: white;
+    //grid-column: 1 / 16;
+  }
 
-  //&__subtitle {
-  //  grid-row: 2;
-  //  grid-column: 1 / 4;
-  //}
+  &__subtitle {
+    color: white;
+    //grid-row: 2;
+    //grid-column: 1 / 4;
+  }
+
+  &__item {
+    color: white;
+  }
+
+  &__nav {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    border-top: solid 2px teal;
+  }
+
+  &__link {
+    color: teal;
+    padding: 5px 0;
+    border-bottom: solid 2px teal;
+  }
 }
