@@ -47,6 +47,7 @@ b {
 .u-fontsize--h1,
 h1 {
   font-size: 35px;
+  letter-spacing: 0;
   @include breakpoint($my-breakpoint-small) {
     font-size: 40px;
   }
@@ -58,6 +59,7 @@ h1 {
 .u-fontsize--h2,
 h2 {
   font-size: 32px;
+  letter-spacing: 0;
   @include breakpoint($my-breakpoint-small) {
     font-size: 35px;
   }
@@ -69,54 +71,68 @@ h2 {
 .u-fontsize--h3,
 h3 {
   font-size: 28px;
-  @include breakpoint($my-breakpoint-small) {
-    font-size: 30px;
-  }
-  @include breakpoint($my-breakpoint-medium) {
-    font-size: 35px;
-  }
+  letter-spacing: 0;
+ //@include breakpoint($my-breakpoint-small) {
+ //   font-size: 30px;
+ // }
+ // @include breakpoint($my-breakpoint-medium) {
+ //   font-size: 35px;
+ // }
 }
 
 .u-fontsize--h4,
 h4 {
-  font-size: 28px;
-  @include breakpoint($my-breakpoint-small) {
-    font-size: 30px;
-  }
-  @include breakpoint($my-breakpoint-medium) {
-    font-size: 35px;
-  }
+  font-size: 24px;
+  letter-spacing: 0;
+  //@include breakpoint($my-breakpoint-small) {
+  //  font-size: 25px;
+  //}
+  //@include breakpoint($my-breakpoint-medium) {
+  //  font-size: 30px;
+  //}
 }
 
 .u-fontsize--h5,
 h5 {
-  @include pm-font-size--h5();
+  font-size: 22px;
+  //@include breakpoint($my-breakpoint-small) {
+  //  font-size: 25px;
+  //}
+  //@include breakpoint($my-breakpoint-medium) {
+  //  font-size: 30px;
+  //}
 }
 
 .u-fontsize--h6,
 h6 {
-  @include pm-font-size--h6();
+  font-size: 22px;
+  //@include breakpoint($my-breakpoint-small) {
+  //  font-size: 25px;
+  //}
+  //@include breakpoint($my-breakpoint-medium) {
+  //  font-size: 30px;
+  //}
 }
 
 .u-fontsize--p,
-.u-fontsize--lg-copy,
 p,
 li {
-  @include pm-font-size--p();
+  font-size: 18px;
+  @include breakpoint($my-breakpoint-small) {
+    font-size: 22px;
+  }
+  @include breakpoint($my-breakpoint-medium) {
+    font-size: 26px;
+  }
 }
 
-.u-fontsize--sm,
-.u-fontsize--sm-copy,
+.u-fontsize--small,
 small {
-  @include pm-font-size--sm();
-}
-
-.u-fontsize--xs,
-.u-fontsize--xs-bold {
-  @include pm-font-size--xs();
-}
-
-code,
-.u-fontface-code {
-  @include pm-font-face-code();
+  font-size: 12px;
+  @include breakpoint($my-breakpoint-small) {
+    font-size: 14px;
+  }
+  @include breakpoint($my-breakpoint-medium) {
+    font-size: 16px;
+  }
 }

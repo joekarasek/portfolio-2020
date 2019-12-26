@@ -1,8 +1,27 @@
-.projects {
+@import "../../styles/core";
 
+.projects {
   // container override for sidescroll on mobile screens.
   margin-right: 0 !important;
   width: 95% !important;
+
+  @include breakpoint($my-breakpoint-small) {
+    margin: 0 auto !important;
+    width: 90% !important;
+
+    &__help-text {
+      display: none;
+    }
+  }
+
+  &__scroll-fix-spacer {
+    min-width: 1px !important;
+    max-width: 1px !important;
+
+    @include breakpoint($my-breakpoint-small) {
+      display: none;
+    }
+  }
 
   &__grid {
     display: flex;
@@ -13,6 +32,26 @@
       min-width: 80vw;
       max-width: 80vw;
       margin-right: 30px;
+      &:last-child {
+        margin-right: 30px;
+      }
+    }
+
+    @include breakpoint($my-breakpoint-small) {
+      display: grid;
+      overflow: hidden;
+      grid-gap: 20px;
+      grid-template-columns: repeat(2, 1fr);
+
+      & > * {
+        min-width: unset;
+        max-width: unset;
+        margin-right: 0;
+      }
+    }
+
+    @include breakpoint($my-breakpoint-large) {
+      grid-template-columns: repeat(3, 1fr);
     }
 
 

@@ -35,11 +35,16 @@ export const Projects = () => {
   return (
     <div id="projects" className="projects container">
       <h2 className="projects__title">Projects</h2>
+      <p className="projects__help-text">
+        Swipe left to see more...
+      </p>
       <div className="projects__grid">
         {nodes.map(node => (
           <Card key={node.id} {...node}></Card>
         ))}
+        <div className="projects__scroll-fix-spacer"></div>
       </div>
+
     </div>
   );
 };
