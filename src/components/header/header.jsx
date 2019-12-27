@@ -17,7 +17,7 @@ export const Header = () => (
         <a href="#interests" className="header__link">Interests</a>
         <a href="#skills" className="header__link">Skills</a>
         <a href="#talks" className="header__link">Talks</a>
-        <a href="#about" className="header__link">About Mee</a>
+        <a href="#about" className="header__link">About Me</a>
         <a href="#contact" className="header__link">Contact</a>
       </nav>
     </div>

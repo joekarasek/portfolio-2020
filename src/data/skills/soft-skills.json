@@ -1,0 +1,161 @@
+{
+  "title": "Soft Skills",
+  "words": [
+    {
+      "text": "VanillaJS",
+      "value": 200
+    },
+    {
+      "text": "React",
+      "value": 85
+    },
+    {
+      "text": "Redux",
+      "value": 45
+    },
+    {
+      "text": "EmberJs",
+      "value": 10
+    },
+    {
+      "text": "Node.js",
+      "value": 80
+    },
+    {
+      "text": "Typescript",
+      "value": 50
+    },
+    {
+      "text": "MomentJS",
+      "value": 60
+    },
+    {
+      "text": "RxJS",
+      "value": 20
+    },
+    {
+      "text": "EsLint",
+      "value": 70
+    },
+    {
+      "text": "Prettier",
+      "value": 40
+    },
+    {
+      "text": "Gulp",
+      "value": 40
+    },
+    {
+      "text": "Webpack",
+      "value": 70
+    },
+    {
+      "text": "Emotion",
+      "value": 20
+    },
+    {
+      "text": "Styled Components",
+      "value": 30
+    },
+    {
+      "text": "JSX",
+      "value": 70
+    },
+    {
+      "text": "Grapes.js",
+      "value": 30
+    },
+    {
+      "text": "Web Components",
+      "value": 60
+    },
+    {
+      "text": "Babel",
+      "value": 70
+    },
+    {
+      "text": "NPM",
+      "value": 55
+    },
+    {
+      "text": "Yarn",
+      "value": 55
+    },
+    {
+      "text": "Cypress",
+      "value": 55
+    },
+    {
+      "text": "Nightwatch",
+      "value": 45
+    },
+    {
+      "text": "Selenium",
+      "value": 70
+    },
+    {
+      "text": "Drupal",
+      "value": 70
+    },
+    {
+      "text": "Time tracking",
+      "value": 20
+    },
+    {
+      "text": "Mentorship",
+      "value": 20
+    },
+    {
+      "text": "Vision Alignment",
+      "value": 20
+    },
+    {
+      "text": "Risk Assestment",
+      "value": 20
+    },
+    {
+      "text": "Technical Debt Review",
+      "value": 20
+    },
+    {
+      "text": "Estimation",
+      "value": 20
+    },
+    {
+      "text": "Collaboration",
+      "value": 20
+    },
+    {
+      "text": "Team Building",
+      "value": 20
+    },
+    {
+      "text": "Motivation",
+      "value": 20
+    },
+    {
+      "text": "Technical Reviews",
+      "value": 20
+    },
+    {
+      "text": "Agile",
+      "value": 20
+    },
+    {
+      "text": "Lean",
+      "value": 20
+    },
+    {
+      "text": "Story Pointing",
+      "value": 20
+    },
+    {
+      "text": "Presentations",
+      "value": 20
+    },
+    {
+      "text": "Community Engagement",
+      "value": 20
+    }
+  ]
+}

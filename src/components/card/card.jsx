@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Link } from 'gatsby';
 import { Chip } from '../chip/chip';
 import './card.scss';
 
@@ -26,7 +27,7 @@ export const Card = (
         <div className="card__body">
           {client && <h4 className="card__client">{client}</h4>}
           {title && <h3 className="card__title">{title}</h3>}
-          <a href={fields.slug}>More</a>
+          <Link to={fields.slug}>More</Link>
         </div>
       </article>
 );
