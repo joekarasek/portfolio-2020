@@ -6,12 +6,14 @@ export const Header = () => (
     <div className="header__wrapper">
       <h1 className="header__title">Joe Karasek</h1>
       <h2 className="header__subtitle">Web Developer</h2>
-      <p className="header__item">Design System Engineer</p>
-      <p className="header__item">Tech Lead</p>
-      <p className="header__item">Javascript</p>
-      <p className="header__item">CSS</p>
-      <p className="header__item">HTML</p>
-      <p className="header__item">Tooling</p>
+      <div className="header__items">
+        <p className="header__item">Design Systems</p>
+        <p className="header__item">Tech Lead</p>
+        <p className="header__item">Javascript</p>
+        <p className="header__item">CSS</p>
+        <p className="header__item">HTML</p>
+        <p className="header__item">Tooling</p>
+      </div>
       <nav className="header__nav">
         <a href="#projects" className="header__link">Portfolio</a>
         <a href="#interests" className="header__link">Interests</a>
@@ -20,6 +22,9 @@ export const Header = () => (
         <a href="#about" className="header__link">About Me</a>
         <a href="#contact" className="header__link">Contact</a>
       </nav>
+      <div className="header__links">
+        Find me on <a href="">Github</a>
+      </div>
     </div>
   </header>
 );
