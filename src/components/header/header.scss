@@ -1,4 +1,4 @@
-@import "../../styles/design-tokens";
+@import "../../styles/core";
 
 .header {
   display: flex;
@@ -7,11 +7,13 @@
   height: 100vh;
 
   &__wrapper {
-    width: 66vw;
-    display: grid;
-    grid-template-columns: auto 1fr 1fr 0.5fr;
-    grid-template-rows: auto 1fr 1fr auto auto;
-    grid-gap: 1rem;
+    @include breakpoint(550px) {
+      width: 66vw;
+      display: grid;
+      grid-template-columns: auto 1fr 1fr 0.5fr;
+      grid-template-rows: auto 1fr 1fr auto auto;
+      grid-gap: 1rem;
+    }
 
     > * {
       margin: 0;
@@ -20,44 +22,81 @@
 
   &__title {
     color: white;
-    grid-column: 0 / 3;
-    text-align: right;
+    grid-column: 1 / span 3;
+    @include breakpoint($my-breakpoint-medium) {
+      text-align: right;
+      grid-column: 1;
+    }
   }
 
   &__subtitle {
     color: $my-maize;
-    writing-mode: vertical-lr;
-    grid-column: 1 / 2;
-    grid-row: 2 / 5;
-    justify-self: end;
-    margin-top: -10px;
-    margin-right: -10px;
+
+    @include breakpoint(550px) {
+      writing-mode: vertical-lr;
+      grid-column: 4;
+      grid-row: 2 / 5;
+      justify-self: end;
+      margin-top: -10px;
+      margin-right: -10px;
+    }
+
+    @include breakpoint($my-breakpoint-medium) {
+      grid-column: 1 / 2;
+    }
   }
 
   &__nav {
-    grid-column: 2 / span 2;
+    grid-column: 1 / span 2;
     grid-row: 2 / span 1;
     font-weight: 700;
     line-height: 1.2;
     align-self: end;
+    @include breakpoint($my-breakpoint-medium) {
+      grid-column: 2 / span 2;
+    }
   }
 
   &__items {
     font-weight: 700;
-    grid-row: 3;
-    grid-column: 3 / span 2;
-    align-self: end;
-    writing-mode: vertical-lr;
-    padding-top: $my-space-sm;
     border-top: solid $my-space-sm $my-seafoam;
-    //transform: rotate(45deg);
+    text-align: right;
+    @include breakpoint(600px) {
+      text-align: left;
+      grid-row: 2;
+      grid-column: 3 / span 1;
+      align-self: end;
+      writing-mode: vertical-lr;
+      padding-top: $my-space-sm;
+    }
+    @include breakpoint($my-breakpoint-medium) {
+      grid-row: 3;
+    }
   }
 
-  &__links {
-    grid-row: 4;
-    grid-column: 1 / span 1;
+  &__social {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    grid-row: 3;
+    grid-column: 1 / span 4;
     padding-bottom: $my-space-sm;
     border-bottom: solid $my-space-sm $my-pastel-red;
+    padding: $my-space-sm $my-space-sm;
+    @include breakpoint($my-breakpoint-medium) {
+      grid-row: 4;
+      grid-column: 1 / span 1;
+    }
+  }
+
+  &__social-icon {
+    color: $my-maize;
+    fill: $my-maize;
+    width: 40px;
+    path {
+      color: $my-maize;
+      fill: $my-maize;
+    }
   }
 
   &__item {
@@ -69,12 +108,24 @@
     display: flex;
     flex-direction: column;
     margin-top: 10px;
-    border-top: solid 2px teal;
+    border-top: solid 2px white;
   }
 
   &__link {
-    color: teal;
-    padding: 5px 0;
-    border-bottom: solid 2px teal;
+    color: white;
+    padding: 5px 0 5px 5px;
+    border-bottom: solid 2px white;
+    background-color: teal;
+    text-decoration: none;
+    &:hover {
+      background-color: $my-pastel-brick;
+    }
+  }
+
+  &__link-icon {
+    display: inline;
+    width: 10px;
+    fill: white;
+    padding-right: 10px;
   }
 }
