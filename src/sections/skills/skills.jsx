@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactWordcloud from 'react-wordcloud';
 import { graphql, useStaticQuery } from 'gatsby';
+import { Headline } from '../../components';
 import './skills.scss';
 
 export const Skills = () => {
@@ -39,8 +40,10 @@ export const Skills = () => {
   };
 
   return (
-    <div id="skills" className="skills section container">
-      <h2 className="skills__title">Skills</h2>
+      <>
+        <span id="skills"></span>
+        <Headline decoration="left" className="skills__title">Skills</Headline>
+    <div className="skills section container">
       {nodes.map(node => (
           <div className="skill__cloud" key={node.id}>
             <h3 className="skill__title">{node.title}</h3>
@@ -48,6 +51,7 @@ export const Skills = () => {
           </div>
       ))}
     </div>
+        </>
   );
 }
 

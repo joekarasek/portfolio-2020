@@ -1,0 +1,27 @@
+@import "../../styles/core.scss";
+
+.my-grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  justify-items: stretch;
+
+  &--has-gutter {
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+  }
+
+  &--gutter-size-- {
+    @each $size, $value in $mySpaceMap {
+      &#{$size} {
+        grid-column-gap: $value;
+        grid-row-gap: $value;
+      }
+    }
+  }
+
+  &--align-row-item-heights {
+    & > * {
+      display: flex;
+    }
+  }
+}

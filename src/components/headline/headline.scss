@@ -1,0 +1,53 @@
+@import "../../styles/core";
+
+.my-headline {
+  overflow: hidden;
+  padding-top: 30px;
+
+  &--left {
+    text-align: right;
+  }
+
+  &__text {
+    display: inline-block;
+    position: relative;
+    margin-bottom: 20px;
+    > * {
+      margin-bottom: 0;
+    }
+  }
+
+  &__preline {
+    position: absolute;
+    display: flex;
+    top: calc(50% - 2px);
+    bottom: calc(50% - 5px);
+    left: -100vw;
+    right: calc(100% + 30px);
+  }
+
+  &__postline {
+    position: absolute;
+    display: flex;
+    top: calc(50% - 2px);
+    bottom: calc(50% - 5px);
+    left: calc(100% + 30px);
+    right: -100vw;
+  }
+
+  &__dot {
+    width: 6px;
+    background-color: $my-english-green;
+    &:not(:first-child) {
+      margin-left: $my-space-sm;
+    }
+  }
+
+  &__dash {
+    flex-grow: 1;
+    background-color: $my-english-green;
+    &:not(:first-child) {
+      margin-left: $my-space-sm;
+    }
+  }
+}

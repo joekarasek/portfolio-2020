@@ -1,6 +1,11 @@
 $my-black: black;
-$my-seafoam: #8fffff;
+$my-honeydew: #E8FFE8;
+$my-seafoam: #4ECDC4;
+$my-english-green: #1A535C;
+$my-pastel-red: #FF6B6B;
+$my-maize: #FFED65;
 $my-grey-dark: #212529;
+$my-grey-light: #788389;
 
 $my-breakpoint-xsmall: 450px;
 $my-breakpoint-small: 700px;
@@ -10,3 +15,21 @@ $my-breakpoint-xlarge: 1300px;
 
 $my-fontfamily-sans: "My Sans", sans-serif;
 $my-fontfamily-serif: "My Serif", serif;
+
+$my-space-xs: 5px;
+$my-space-sm: 10px;
+$my-space-md: 15px;
+$my-space-default: 20px;
+$my-space-lg: 30px;
+$my-space-xl: 60px;
+$my-space-none: 0px;
+
+$mySpaceMap: (
+  "xs": $my-space-xs,
+  "sm": $my-space-sm,
+  "md": $my-space-md,
+  "default": $my-space-default,
+  "lg": $my-space-lg,
+  "xl": $my-space-xl,
+  "none": $my-space-none,
+);

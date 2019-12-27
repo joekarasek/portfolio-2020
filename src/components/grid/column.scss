@@ -1,0 +1,65 @@
+@import "../../styles/core.scss";
+
+@for $i from 0 through 12 {
+  .my-column--base-offset-#{$i} {
+    grid-column-start: #{$i + 1};
+  }
+  .my-column--base-span-#{$i} {
+    grid-column-end: span #{$i};
+  }
+}
+
+@for $i from 0 through 12 {
+  @media screen and (min-width: $my-breakpoint-xsmall) {
+    .my-column--above-xs-offset-#{$i} {
+      grid-column-start: #{$i + 1};
+    }
+    .my-column--above-xs-span-#{$i} {
+      grid-column-end: span #{$i};
+    }
+  }
+}
+
+@for $i from 0 through 12 {
+  @media screen and (min-width: $my-breakpoint-small) {
+    .my-column--above-sm-offset-#{$i} {
+      grid-column-start: #{$i + 1};
+    }
+    .my-column--above-sm-span-#{$i} {
+      grid-column-end: span #{$i};
+    }
+  }
+}
+
+@for $i from 0 through 12 {
+  @media screen and (min-width: $my-breakpoint-medium) {
+    .my-column--above-md-offset-#{$i} {
+      grid-column-start: #{$i + 1};
+    }
+    .my-column--above-md-span-#{$i} {
+      grid-column-end: span #{$i};
+    }
+  }
+}
+
+@for $i from 0 through 12 {
+  @media screen and (min-width: $my-breakpoint-large) {
+    .my-column--above-lg-offset-#{$i} {
+      grid-column-start: #{$i + 1};
+    }
+    .my-column--above-lg-span-#{$i} {
+      grid-column-end: span #{$i};
+    }
+  }
+}
+
+@for $i from 0 through 12 {
+  @media screen and (min-width: $my-breakpoint-xlarge) {
+    .my-column--above-xl-offset-#{$i} {
+      grid-column-start: #{$i + 1};
+    }
+    .my-column--above-xl-span-#{$i} {
+      grid-column-end: span #{$i};
+    }
+  }
+}

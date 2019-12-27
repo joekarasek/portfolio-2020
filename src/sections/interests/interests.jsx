@@ -1,5 +1,6 @@
 import React from 'react';
 import { graphql, useStaticQuery } from 'gatsby';
+import { Headline } from '../../components';
 import './interests.scss';
 
 export const Interests = () => {
@@ -21,15 +22,18 @@ export const Interests = () => {
   );
 
   return (
-    <div id="interests" className="interests section container">
-      <h2 className="interests__title">Professional Interests</h2>
-      {nodes[0].interests.map(node => (
-        <article className="interest" key={node.title}>
-          <h3 className="interest__title">{node.title}</h3>
-          <p className="interest__body">{node.body}</p>
-        </article>
-        ))}
-    </div>
+    <>
+      <span id="interests" />
+      <Headline className="interests__title">Professional Interests</Headline>
+      <div className="interests section container">
+        {nodes[0].interests.map(node => (
+          <article className="interest" key={node.title}>
+            <h3 className="interest__title">{node.title}</h3>
+            <p className="interest__body">{node.body}</p>
+          </article>
+          ))}
+      </div>
+    </>
   );
 }
 
