@@ -52,6 +52,16 @@
       background-color: $my-pastel-red;
     }
   }
+  &--maize {
+    .my-headline__dash {
+      background-color: $my-maize;
+    }
+  }
+  &--seafoam {
+    .my-headline__dash {
+      background-color: $my-seafoam;
+    }
+  }
 
   &__dash {
     flex-grow: 1;
@@ -68,6 +78,16 @@
   &--pastel-red {
     .my-headline__dash {
       background-color: $my-pastel-red;
+    }
+  }
+  &--maize {
+    .my-headline__dash {
+      background-color: $my-maize;
+    }
+  }
+  &--seafoam {
+    .my-headline__dash {
+      background-color: $my-seafoam;
     }
   }
 }

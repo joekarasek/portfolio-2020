@@ -25,7 +25,7 @@ export const Skills = () => {
   );
 
   const options = {
-    colors: ['#fff', '#FF6B6B', '#4ECDC4', '#E8FFE8'],
+    colors: ['#fff', '#FF6B6B', '#4ECDC4', '#E8FFE8', '#FFED65'],
     enableTooltip: false,
     deterministic: true,
     fontSizes: [12, 45],

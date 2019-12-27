@@ -26,9 +26,9 @@ export const Interests = () => {
       <span id="interests" />
       <Headline className="interests__title">Professional Interests</Headline>
       <div className="interests section container">
-        {nodes[0].interests.map(node => (
+        {nodes[0].interests.map((node, index) => (
           <article className="interest" key={node.title}>
-            <Headline decoration="left" headingType="h4" color="pastel-brick" className="interest__title">{node.title}</Headline>
+            <Headline decoration={index % 2 ? "left" : "both"} headingType="h4" color={index % 2 ? "seafoam" : "pastel-red"} className="interest__title">{node.title}</Headline>
             <p className="interest__body">{node.body}</p>
           </article>
           ))}
