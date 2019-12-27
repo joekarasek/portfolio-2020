@@ -14,6 +14,7 @@ export const Card = (
        deliverables,
        tech,
        links,
+      fields,
        images = []
     }) => (
       <article className="card">
@@ -25,6 +26,7 @@ export const Card = (
         <div className="card__body">
           {client && <h4 className="card__client">{client}</h4>}
           {title && <h3 className="card__title">{title}</h3>}
+          <a href={fields.slug}>More</a>
         </div>
       </article>
 );

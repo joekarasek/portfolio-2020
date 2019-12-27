@@ -1,0 +1,31 @@
+@import "../styles/core";
+
+.project-page {
+  display: flex;
+  flex-direction: column;
+
+  @include breakpoint($my-breakpoint-medium) {
+    display: block;
+  }
+
+  &__images {
+    order: 1;
+    display: grid;
+    grid-gap: 30px;
+
+    @include breakpoint($my-breakpoint-small) {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    @include breakpoint($my-breakpoint-medium) {
+      grid-template-columns: 1fr;
+      float: right;
+      width: 300px;
+    }
+
+    @include breakpoint($my-breakpoint-large) {
+      grid-template-columns: 1fr 1fr;
+      width: 500px;
+    }
+  }
+}

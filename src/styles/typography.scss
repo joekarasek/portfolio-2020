@@ -116,6 +116,7 @@ h6 {
 
 .u-fontsize--p,
 p,
+a,
 li {
   font-size: 16px;
   @include breakpoint($my-breakpoint-small) {
@@ -135,4 +136,8 @@ small {
   @include breakpoint($my-breakpoint-medium) {
     font-size: 16px;
   }
+}
+
+a {
+  color: white;
 }
