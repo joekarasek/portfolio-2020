@@ -13,8 +13,9 @@ export const Headline = ({
   offsetXl,
   decoration,
   headingType,
+  color,
 }) => {
-  const classes = classNames("my-headline", `my-headline--${decoration}`);
+  const classes = classNames("my-headline", `my-headline--${decoration}`, `my-headline--${color}` );
   const Tag = headingType;
   return (
     <div className={classes}>
@@ -54,6 +55,7 @@ export const Headline = ({
 Headline.defaultProps = {
   decoration: "right",
   headingType: "h2",
+  color: 'english-green'
 };
 
 Headline.propTypes = {
@@ -72,4 +74,5 @@ Headline.propTypes = {
   offsetLg: PropTypes.number,
   /** offset at Xl and above screen width */
   offsetXl: PropTypes.number,
+  color: PropTypes.string,
 };

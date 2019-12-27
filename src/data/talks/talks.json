@@ -1,0 +1,37 @@
+[
+  {
+  "name": "Launching a Career in Tech",
+  "date": "5-10-2018",
+  "location": "Typescript PDX Meetup"
+  },
+  {
+  "name": "Launching a Career in Tech",
+  "date": "5-29-2018",
+  "location": "Epicodus Lunch Time Speaker Series"
+  },
+  {
+  "name": "Launching a Career in Tech",
+  "date": "6-13-2018",
+  "location": "Mentorship Saturdays Meetup"
+  },
+  {
+  "name": "Integrating Testing into the Git Workflow",
+  "date": "8-21-2018",
+  "location": "FrontEnd PDX Meetup"
+  },
+  {
+  "name": "Integrating Testing into the Git Workflow",
+  "date": "9-14-2018",
+  "location": "Mentorship Saturdays Meetup"
+  },
+  {
+  "name": "[Rethinking Component Libraries](https://www.slideshare.net/JoeKarasek/)",
+  "date": "2-25-2019",
+  "location": "FrontEnd PDX Meetup"
+  },
+  {
+  "name": "Launching a Career in Tech",
+  "date": "10-2-2019",
+  "location": "Epicodus Lunch Time Speaker Series"
+  }
+]

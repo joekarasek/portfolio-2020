@@ -28,7 +28,7 @@ export const Interests = () => {
       <div className="interests section container">
         {nodes[0].interests.map(node => (
           <article className="interest" key={node.title}>
-            <h3 className="interest__title">{node.title}</h3>
+            <Headline decoration="left" headingType="h4" color="pastel-brick" className="interest__title">{node.title}</Headline>
             <p className="interest__body">{node.body}</p>
           </article>
           ))}

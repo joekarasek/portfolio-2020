@@ -42,12 +42,32 @@
       margin-left: $my-space-sm;
     }
   }
+  &--pastel-brick {
+    .my-headline__dash {
+      background-color: $my-pastel-brick;
+    }
+  }
+  &--pastel-red {
+    .my-headline__dash {
+      background-color: $my-pastel-red;
+    }
+  }
 
   &__dash {
     flex-grow: 1;
     background-color: $my-english-green;
     &:not(:first-child) {
       margin-left: $my-space-sm;
+    }
+  }
+  &--pastel-brick {
+    .my-headline__dash {
+      background-color: $my-pastel-brick;
+    }
+  }
+  &--pastel-red {
+    .my-headline__dash {
+      background-color: $my-pastel-red;
     }
   }
 }

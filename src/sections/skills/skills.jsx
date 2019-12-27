@@ -25,7 +25,7 @@ export const Skills = () => {
   );
 
   const options = {
-    colors: ['#fff', '#8fffff'],
+    colors: ['#fff', '#FF6B6B', '#4ECDC4', '#E8FFE8'],
     enableTooltip: false,
     deterministic: true,
     fontSizes: [12, 45],
@@ -40,18 +40,18 @@ export const Skills = () => {
   };
 
   return (
-      <>
-        <span id="skills"></span>
-        <Headline decoration="left" className="skills__title">Skills</Headline>
-    <div className="skills section container">
-      {nodes.map(node => (
+    <>
+      <span id="skills" />
+      <Headline decoration="left" className="skills__title">Skills</Headline>
+      <div className="skills section container">
+        {nodes.map(node => (
           <div className="skill__cloud" key={node.id}>
             <h3 className="skill__title">{node.title}</h3>
             <ReactWordcloud options={options} words={node.words} key={node.id} />
           </div>
       ))}
-    </div>
-        </>
+      </div>
+    </>
   );
 }
 
