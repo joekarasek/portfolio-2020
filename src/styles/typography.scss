@@ -117,13 +117,13 @@ h6 {
 .u-fontsize--p,
 p,
 li {
-  font-size: 18px;
+  font-size: 16px;
   @include breakpoint($my-breakpoint-small) {
-    font-size: 22px;
+    font-size: 18px;
   }
-  @include breakpoint($my-breakpoint-medium) {
-    font-size: 26px;
-  }
+  //@include breakpoint($my-breakpoint-medium) {
+  //  font-size: 26px;
+  //}
 }
 
 .u-fontsize--small,

@@ -6,12 +6,17 @@
   width: 95% !important;
 
   @include breakpoint($my-breakpoint-small) {
-    margin: 0 auto !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
     width: 90% !important;
 
     &__help-text {
       display: none;
     }
+  }
+
+  @include breakpoint($my-breakpoint-medium) {
+    width: 80% !important;
   }
 
   &__scroll-fix-spacer {

@@ -13,7 +13,7 @@ export const Header = () => (
       <p className="header__item">HTML</p>
       <p className="header__item">Tooling</p>
       <nav className="header__nav">
-        <a href="#projects" className="header__link">Projects</a>
+        <a href="#projects" className="header__link">Portfolio</a>
         <a href="#interests" className="header__link">Interests</a>
         <a href="#skills" className="header__link">Skills</a>
         <a href="#talks" className="header__link">Talks</a>

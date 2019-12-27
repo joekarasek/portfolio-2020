@@ -37,8 +37,9 @@ export const Projects = () => {
     `
   );
   return (
-    <div id="projects" className="projects container">
-      <h2 className="projects__title">Projects</h2>
+    <div id="projects" className="projects section container">
+      <h2 className="projects__title">Portfolio</h2>
+      <p className="projects__lead">Below is a collection of some of the recent projects I have worked on.</p>
       <p className="projects__help-text">
         Swipe left to see more...
       </p>
