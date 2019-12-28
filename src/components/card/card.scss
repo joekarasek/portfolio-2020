@@ -1,7 +1,12 @@
+@import "../../styles/core";
+
 .card {
-  background-color: white;
+  display: flex;
+  flex-direction: column;
+  background-color: $my-grey-dark;
   color: black;
   cursor: pointer;
+  border-left: solid 5px $my-pastel-red;
 
   &__image {
     border: solid 5px black;
@@ -15,9 +20,23 @@
 
   &__body {
     padding: 10px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
   }
 
   a {
-    color: black;
+    color: $my-seafoam;
+    margin-top: auto;
+  }
+
+  &__client {
+    color: $my-maize;
+  }
+
+  &__title {
+    color: white;
+    margin-top: 0;
+    margin-bottom: 20px;
   }
 }

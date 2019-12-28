@@ -5,16 +5,14 @@ import './interests.scss';
 
 export const Interests = () => {
   const {
-    allInterestsJson: { nodes },
+    allInterestJson: { nodes },
   } = useStaticQuery(
       graphql`
           {
-              allInterestsJson {
+              allInterestJson {
                   nodes {
-                      interests {
-                          body
-                          title
-                      }
+                      title
+                      body
                   }
               }
           }
@@ -26,7 +24,7 @@ export const Interests = () => {
       <span id="interests" />
       <Headline className="interests__title">Professional Interests</Headline>
       <div className="interests section container">
-        {nodes[0].interests.map((node, index) => (
+        {nodes.map((node, index) => (
           <article className="interest" key={node.title}>
             <Headline decoration={index % 2 ? "left" : "both"} headingType="h4" color={index % 2 ? "seafoam" : "pastel-red"} className="interest__title">{node.title}</Headline>
             <p className="interest__body">{node.body}</p>

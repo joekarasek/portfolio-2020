@@ -1,0 +1,33 @@
+@import "../../styles/core";
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  &__social {
+    min-width: 300px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    grid-row: 3;
+    grid-column: 1 / span 4;
+    padding-bottom: $my-space-sm;
+    border-bottom: solid $my-space-sm $my-pastel-red;
+    padding: $my-space-sm;
+    @include breakpoint($my-breakpoint-medium) {
+      grid-row: 4;
+      grid-column: 1 / span 1;
+    }
+  }
+
+  &__social-icon {
+    color: $my-maize;
+    fill: $my-maize;
+    width: 40px;
+    path {
+      color: $my-maize;
+      fill: $my-maize;
+    }
+  }
+}

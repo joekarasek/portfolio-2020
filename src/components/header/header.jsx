@@ -31,10 +31,10 @@ export const Header = () => (
           <img className="header__link-icon" src="/icons/hand-point-down-solid.svg" alt="pointing down" />
           Talks
         </a>
-        <a href="#about" className="header__link">
-          <img className="header__link-icon" src="/icons/hand-point-down-solid.svg" alt="pointing down" />
-          About Me
-        </a>
+        {/*<a href="#about" className="header__link">*/}
+        {/*  <img className="header__link-icon" src="/icons/hand-point-down-solid.svg" alt="pointing down" />*/}
+        {/*  About Me*/}
+        {/*</a>*/}
         <a href="#contact" className="header__link">
           <img className="header__link-icon" src="/icons/hand-point-down-solid.svg" alt="pointing down" />
           Contact
