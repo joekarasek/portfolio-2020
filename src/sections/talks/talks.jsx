@@ -24,10 +24,10 @@ export const Talks = () => {
   const now = new Date();
   const upComingTalks = talks
       .sort((currentTalk, nextTalk) => new Date(nextTalk.date) - new Date(currentTalk.date))
-      .filter(talk => new Date(talk.date) > new Date(talk.date));
+      .filter(talk => new Date(talk.date) > new Date());
   const pastTalks = talks
       .sort((currentTalk, nextTalk) => new Date(nextTalk.date) - new Date(currentTalk.date))
-      .filter(talk => new Date(talk.date) <= new Date(talk.date));
+      .filter(talk => new Date(talk.date) <= new Date());
 
   return (
     <>
