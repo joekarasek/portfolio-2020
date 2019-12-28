@@ -7,7 +7,7 @@ export const Contact = () => {
   return (
       <>
         <span id="contact" />
-        <Headline className="interests__title">Contact Me</Headline>
+        <Headline decoration="left" className="interests__title">Contact Me</Headline>
         <div className="contact section container">
           <div className="contact__social">
             <a href="https://github.com/joekarasek"><img className="contact__social-icon" src="/icons/github.svg" alt="Github" /></a>

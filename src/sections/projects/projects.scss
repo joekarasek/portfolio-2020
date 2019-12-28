@@ -59,20 +59,5 @@
       grid-template-columns: repeat(3, 1fr);
       grid-gap: 45px;
     }
-
-
-    //display: grid;
-    //align-items: flex-start;
-    //grid-template-columns: repeat(3, 1fr);
-    //grid-template-rows: 8fr;
-    //gap: 1.2rem 1.2rem;
-    //
-    //@media (max-width: 960px) {
-    //  grid-template-columns: repeat(2, 1fr);
-    //}
-    //
-    //@media (max-width: 680px) {
-    //  grid-template-columns: 1fr;
-    //}
   }
 }

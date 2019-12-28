@@ -9,23 +9,104 @@
   }
 
   &__images {
-    order: 1;
-    display: grid;
-    grid-gap: 30px;
+    display: flex;
+    overflow: scroll;
+    padding: 30px 0 90px;
 
-    @include breakpoint($my-breakpoint-small) {
-      grid-template-columns: 1fr 1fr;
+    & > * {
+      min-width: 80vw;
+      max-width: 80vw;
+      margin-right: 30px;
+      &:last-child {
+        margin-right: 30px;
+      }
     }
 
-    @include breakpoint($my-breakpoint-medium) {
-      grid-template-columns: 1fr;
-      float: right;
-      width: 300px;
+    @include breakpoint($my-breakpoint-small) {
+      display: grid;
+      overflow: hidden;
+      grid-gap: 30px;
+      grid-template-columns: repeat(2, 1fr);
+
+      & > * {
+        min-width: unset;
+        max-width: unset;
+        margin-right: 0;
+      }
     }
 
     @include breakpoint($my-breakpoint-large) {
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 45px;
+    }
+  }
+
+  &__home {
+    a {
+      display: block;
+      padding: 35px 20px 20px 0;
+      max-width: 40px;
+    }
+  }
+
+  &__deliverables-wrapper {
+    margin: 45px 0;
+    display: grid;
+    grid-template-columns: 40px 1fr;
+
+    h3 {
+      display: flex;
+      align-items: flex-end;
+      writing-mode: vertical-lr;
+    }
+
+    ul {
+      padding-left: 10px;
+      border-left: solid 5px $my-pastel-brick;
+      li {
+        margin-bottom: 15px;
+      }
+    }
+  }
+
+  &__tech-wrapper {
+    margin: 45px 0;
+    display: grid;
+    grid-template-columns: 40px 1fr;
+
+    h3 {
+      display: flex;
+      align-items: flex-end;
+      writing-mode: vertical-lr;
+    }
+
+    ul {
+      padding-left: 10px;
+      border-left: solid 5px $my-maize;
+      display: grid;
+      grid-gap: 10px;
       grid-template-columns: 1fr 1fr;
-      width: 500px;
+
+      li {
+        margin: 0;
+      }
+    }
+  }
+
+  &__links-wrapper {
+    margin: 45px 0;
+    display: grid;
+    grid-template-columns: 40px 1fr;
+
+    h3 {
+      display: flex;
+      align-items: flex-end;
+      writing-mode: vertical-lr;
+    }
+
+    div {
+      padding-left: 10px;
+      border-left: solid 5px $my-seafoam;
     }
   }
 }
