@@ -38,7 +38,7 @@ export const Talks = () => {
         {upComingTalks.length ? upComingTalks.map(talk => (
           <div className="talk" key={talk.id}>
             <h4 className="talk__name">{talk.name}</h4>
-            <p className="talk__date">{talk.date}</p>
+            <p className="talk__date">{talk.date} - {talk.location}</p>
           </div>
           )) : (
               <p>Stay tuned for future talks...</p>
