@@ -3,7 +3,7 @@
   "words": [
     {
       "text": "VanillaJS",
-      "value": 200
+      "value": 70
     },
     {
       "text": "React",
@@ -35,7 +35,7 @@
     },
     {
       "text": "EsLint",
-      "value": 70
+      "value": 30
     },
     {
       "text": "Prettier",
@@ -91,70 +91,146 @@
     },
     {
       "text": "Selenium",
-      "value": 70
+      "value": 30
     },
     {
       "text": "Drupal",
-      "value": 70
+      "value": 30
     },
     {
-      "text": "Time tracking",
+      "text": "Wordpress",
+      "value": 30
+    },
+    {
+      "text": "BEM",
+      "value": 50
+    },
+    {
+      "text": "SCSS",
       "value": 20
     },
     {
-      "text": "Mentorship",
+      "text": "CSS-in-JS",
       "value": 20
     },
     {
-      "text": "Vision Alignment",
+      "text": "OOCSS",
+      "value": 10
+    },
+    {
+      "text": "ITCSS",
       "value": 20
     },
     {
-      "text": "Risk Assestment",
+      "text": "Design Tokens",
       "value": 20
     },
     {
-      "text": "Technical Debt Review",
+      "text": "CSS Vars",
       "value": 20
     },
     {
-      "text": "Estimation",
+      "text": "DNS",
+      "value": 10
+    },
+    {
+      "text": "Scripting",
       "value": 20
     },
     {
-      "text": "Collaboration",
+      "text": "VRT",
+      "value": 30
+    },
+    {
+      "text": "eCommerce",
+      "value": 40
+    },
+    {
+      "text": "Accessibility",
       "value": 20
     },
     {
-      "text": "Team Building",
+      "text": "Performance",
       "value": 20
     },
     {
-      "text": "Motivation",
+      "text": "ES6",
       "value": 20
     },
     {
-      "text": "Technical Reviews",
+      "text": "ES2020",
+      "value": 30
+    },
+    {
+      "text": "Docker",
       "value": 20
     },
     {
-      "text": "Agile",
+      "text": "CMS",
+      "value": 40
+    },
+    {
+      "text": "API",
+      "value": 40
+    },
+    {
+      "text": "Semantic Releases",
       "value": 20
     },
     {
-      "text": "Lean",
+      "text": "StyleLint",
+      "value": 15
+    },
+    {
+      "text": "React",
       "value": 20
     },
     {
-      "text": "Story Pointing",
+      "text": "Storybook",
       "value": 20
     },
     {
-      "text": "Presentations",
+      "text": "Styleguidist",
+      "value": 10
+    },
+    {
+      "text": "Async/Await",
+      "value": 10
+    },
+    {
+      "text": "GraphQL",
+      "value": 40
+    },
+    {
+      "text": "CI/CD",
       "value": 20
     },
     {
-      "text": "Community Engagement",
+      "text": "Netlify",
+      "value": 20
+    },
+    {
+      "text": "GitHub",
+      "value": 20
+    },
+    {
+      "text": "GitHub Actions",
+      "value": 10
+    },
+    {
+      "text": "Heroku",
+      "value": 20
+    },
+    {
+      "text": "PHP",
+      "value": 30
+    },
+    {
+      "text": "Python",
+      "value": 10
+    },
+    {
+      "text": "MySQL",
       "value": 20
     }
   ]
