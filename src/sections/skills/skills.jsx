@@ -27,16 +27,17 @@ export const Skills = () => {
   const options = {
     colors: ['#fff', '#FF6B6B', '#4ECDC4', '#E8FFE8', '#FFED65'],
     enableTooltip: false,
-    deterministic: true,
-    fontSizes: [12, 45],
+    deterministic: false,
+    fontSizes: [10, 30],
     fontFamily: "My Sans",
     fontStyle: 'normal',
     fontWeight: 'normal',
     padding: 1,
-    rotations: 4,
-    rotationAngles: [-45, 90],
+    rotations: 1,
+    rotationAngles: [0, 0],
     scale: 'linear',
     transitionDuration: 1000,
+    minSize: [300, 600]
   };
 
   return (
@@ -47,12 +48,12 @@ export const Skills = () => {
         {nodes.map(node => (
           <div className="skill__cloud" key={node.id}>
             <h3 className="skill__title">{node.title}</h3>
-            <ReactWordcloud options={options} words={node.words} key={node.id} />
+            <ReactWordcloud options={options} words={node.words} minSize={[300, 400]} key={node.id} />
           </div>
       ))}
       </div>
     </>
   );
-}
+};
 
 Skills.propTypes = {};
