@@ -15,10 +15,10 @@ export const Card = (
        deliverables,
        tech,
        links,
-      fields,
+       fields,
        images = []
     }) => (
-      <article className="card">
+      <Link to={fields.slug} className="card">
         {images[0] ? (
           <div className="card__image" style={{ backgroundImage: `url(${images[0].url})` }} />
         ) : (
@@ -27,9 +27,8 @@ export const Card = (
         <div className="card__body">
           {client && <h4 className="card__client">{client}</h4>}
           {title && <h3 className="card__title">{title}</h3>}
-          <Link to={fields.slug}>More</Link>
         </div>
-      </article>
+      </Link>
 );
 
 Card.propTypes = {

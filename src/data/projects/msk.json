@@ -1,0 +1,43 @@
+{
+  "title": "Brand Refresh and Design System Refactor",
+  "client": "Memorial Sloan Kettering",
+  "date": {
+    "start": "2018-12",
+    "end": "2019-06"
+  },
+  "description": "Memorial Sloan Kettering is one of the top cancer research and treatment institues. I helped implement a massive code refactor and brand refresh. This included a complete component library rebuild and migration from Pattern Lab to our system Knapsack, as well as modernization of tooling and processes. In addition to working on the front end, I also consulted on and helped implemented QA automation.",
+  "deliverables": [
+    "Audit of the existing system, interface inventory, and roadmap",
+    "Rebuild of scss architecture",
+    "Brand refresh",
+    "Update to tooling and scripts",
+    "QA automation, CI/CD, Cypress, and reporting"
+  ],
+  "tech": [
+    "Drupal",
+    "Scss",
+    "Webpack",
+    "Twig",
+    "Pattern Lab",
+    "Cypress",
+    "Browser Stack",
+    "React",
+    "BitBucket Pipelines"
+  ],
+  "links": [
+    {
+      "title": "Memorial Sloab Kettering Cancer Center - Live Site",
+      "url": "https://www.mskcc.org/"
+    },
+    {
+      "title": "Memorial Sloab Kettering Cancer Center - Live Site",
+      "url": "https://www.mskcc.org/"
+    }
+  ],
+  "images": [
+    {
+      "url": "/images/aaas.png",
+      "alt": "AAAS.org - Search Page"
+    }
+  ]
+}
