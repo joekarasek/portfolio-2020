@@ -42,10 +42,13 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
+    "build:prod": "npm run clean && npm run build && npm run serve",
+    "clean": "rm -rf .cache public",
     "start": "gatsby develop -o",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "reset": "rm -rf .cache/ public/",
+    "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
   },
   "devDependencies": {
