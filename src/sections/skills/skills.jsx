@@ -27,14 +27,14 @@ export const Skills = () => {
   const options = {
     colors: ['#fff', '#FF6B6B', '#4ECDC4', '#E8FFE8', '#FFED65'],
     enableTooltip: false,
-    deterministic: false,
+    deterministic: true,
     fontSizes: [10, 30],
     fontFamily: "My Sans",
     fontStyle: 'normal',
     fontWeight: 'normal',
-    padding: 1,
-    rotations: 1,
-    rotationAngles: [0, 0],
+    padding: 2,
+    rotations: 2,
+    rotationAngles: [0, 90],
     scale: 'linear',
     transitionDuration: 1000,
     minSize: [300, 600]
