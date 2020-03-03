@@ -1,29 +1,11 @@
 import React from 'react';
 import ReactWordcloud from 'react-wordcloud';
-import { graphql, useStaticQuery } from 'gatsby';
 import { Headline } from '../../components';
 import './skills.scss';
+import softSkills from '../../data/skills/soft-skills';
+import techSkills from '../../data/skills/technical-skills';
 
 export const Skills = () => {
-  const {
-    allSkillsJson: { nodes },
-  } = useStaticQuery(
-      graphql`
-          {
-              allSkillsJson {
-                  nodes {
-                      id
-                      title
-                      words {
-                          text
-                          value
-                      }
-                  }
-              }
-          }
-      `
-  );
-
   const options = {
     colors: ['#fff', '#FF6B6B', '#4ECDC4', '#E8FFE8', '#FFED65'],
     enableTooltip: false,
@@ -45,12 +27,14 @@ export const Skills = () => {
       <span id="skills" />
       <Headline decoration="left" className="skills__title">Skills</Headline>
       <div className="skills section container">
-        {nodes.map(node => (
-          <div className="skill__cloud" key={node.id}>
-            <h3 className="skill__title">{node.title}</h3>
-            <ReactWordcloud options={options} words={node.words} minSize={[300, 400]} key={node.id} />
-          </div>
-      ))}
+        <div className="skill__cloud" key={techSkills.title}>
+          <h3 className="skill__title">{techSkills.title}</h3>
+          <ReactWordcloud options={options} words={techSkills.words} minSize={[300, 400]} key={techSkills.title} />
+        </div>
+        <div className="skill__cloud" key={softSkills.title}>
+          <h3 className="skill__title">{softSkills.title}</h3>
+          <ReactWordcloud options={options} words={softSkills.words} minSize={[300, 400]} key={softSkills.title} />
+        </div>
       </div>
     </>
   );
