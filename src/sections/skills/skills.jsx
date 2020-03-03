@@ -9,7 +9,7 @@ export const Skills = () => {
   const options = {
     colors: ['#fff', '#FF6B6B', '#4ECDC4', '#E8FFE8', '#FFED65'],
     enableTooltip: false,
-    deterministic: true,
+    deterministic: false,
     fontSizes: [10, 30],
     fontFamily: "My Sans",
     fontStyle: 'normal',
@@ -27,13 +27,8 @@ export const Skills = () => {
       <span id="skills" />
       <Headline decoration="left" className="skills__title">Skills</Headline>
       <div className="skills section container">
-        <div className="skill__cloud" key={techSkills.title}>
-          <h3 className="skill__title">{techSkills.title}</h3>
-          <ReactWordcloud options={options} words={techSkills.words} minSize={[300, 400]} key={techSkills.title} />
-        </div>
-        <div className="skill__cloud" key={softSkills.title}>
-          <h3 className="skill__title">{softSkills.title}</h3>
-          <ReactWordcloud options={options} words={softSkills.words} minSize={[300, 400]} key={softSkills.title} />
+        <div className="skill__cloud">
+          <ReactWordcloud options={options} words={techSkills.words.concat(softSkills.words)} minSize={[300, 400]} key={techSkills.title} />
         </div>
       </div>
     </>
