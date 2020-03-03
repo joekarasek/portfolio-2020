@@ -11,8 +11,8 @@ export const SEO = ({ title = defaultTitle, description = defaultDescription, lo
   return (
     <Helmet>
       <meta name="description" content={description} />
+      <meta name="application-name" content={title} />
       <meta name="image" content={Thumbnail} />
-
       <meta property="og:url" content={`${url}${location}`} />
       <meta property="og:type" content="website" />
       <meta property="og:title" content={title} />
