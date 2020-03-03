@@ -1,7 +1,9 @@
 import React from "react";
 import PropTypes from "prop-types";
 import classNames from "classnames";
-import { Grid, Column, Container } from "../index";
+import { Column } from "../grid/column";
+import { Grid } from "../grid/grid";
+import { Container } from "../container/container";
 import "./headline.scss";
 
 export const Headline = ({
@@ -31,7 +33,7 @@ export const Headline = ({
             <Tag className="my-headline__text">
               {(decoration === "left" || decoration === "both") && (
                 <div className="my-headline__preline">
-                  <div className="my-headline__dash"></div>
+                  <div className="my-headline__dash" />
                   {/*<div className="my-headline__dot"></div>*/}
                   {/*<div className="my-headline__dot"></div>*/}
                 </div>
@@ -41,7 +43,7 @@ export const Headline = ({
                 <div className="my-headline__postline">
                   {/*<div className="my-headline__dot"></div>*/}
                   {/*<div className="my-headline__dot"></div>*/}
-                  <div className="my-headline__dash"></div>
+                  <div className="my-headline__dash" />
                 </div>
               )}
             </Tag>
@@ -55,24 +57,25 @@ export const Headline = ({
 Headline.defaultProps = {
   decoration: "right",
   headingType: "h2",
-  color: 'english-green'
+  color: 'english-green',
+  offsetXs: null,
+  offsetSm: null,
+  offsetMd: null,
+  offsetLg: null,
+  offsetXl: null,
 };
 
 Headline.propTypes = {
-  /** type of heading element */
+  children: PropTypes.oneOfType([
+    PropTypes.arrayOf(PropTypes.node),
+    PropTypes.node
+  ]).isRequired,
   headingType: PropTypes.oneOf(["h1", "h2", "h3", "h4", "h5", "h6"]),
-  /** position of the decoration */
   decoration: PropTypes.oneOf(["left", "right", "both", "none"]),
-  // color: PropTypes.oneOf(["yellow"]), @todo for now these are all yellow, however this is an easy refactor to get more colors
-  /** offset at Xs and above screen width */
   offsetXs: PropTypes.number,
-  /** offset at Sm and above screen width */
   offsetSm: PropTypes.number,
-  /** offset at Md and above screen width */
   offsetMd: PropTypes.number,
-  /** offset at Lg and above screen width */
   offsetLg: PropTypes.number,
-  /** offset at Xl and above screen width */
   offsetXl: PropTypes.number,
   color: PropTypes.string,
 };
