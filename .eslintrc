@@ -8,6 +8,7 @@
     "no-console": 2,
     "import/no-unresolved": 0,
     "react/display-name": 0,
-    "react/jsx-filename-extension": 0
+    "react/jsx-filename-extension": 0,
+    "import/prefer-default-export": 0
   }
 }
