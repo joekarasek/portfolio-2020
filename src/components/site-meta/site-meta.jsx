@@ -7,7 +7,7 @@ import {
   defaultTitle,
 } from '../../config';
 
-export const SEO = ({ title = defaultTitle, description = defaultDescription, location = '' }) => {
+export const SiteMeta = ({ title = defaultTitle, description = defaultDescription, location = '' }) => {
   return (
     <Helmet>
       <meta name="description" content={description} />

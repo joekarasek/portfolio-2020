@@ -1,12 +1,10 @@
 export { Button } from './button/button';
 export { Card } from './card/card';
-export { Container } from './container/container';
-export * from './chip/chip';
-export { Grid } from './grid/grid';
+export { Chip } from './chip/chip';
 export { Column } from './grid/column';
-export { Headline } from './headline/headline';
+export { Container } from './container/container';
+export { Grid } from './grid/grid';
 export { Header } from './header/header';
-export { Footer } from './footer/footer';
-export * from './Input';
-export * from './Layout/layout';
-export * from './SEO';
+export { Headline } from './headline/headline';
+export { Layout } from './layout/layout';
+export { SiteMeta } from './site-meta/site-meta';
