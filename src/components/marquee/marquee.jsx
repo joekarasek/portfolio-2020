@@ -41,10 +41,10 @@ export const Marquee = () => (
         </a>
       </nav>
       <div className="marquee__social">
-        <a href="https://github.com/joekarasek"><img className="marquee__social-icon" src="/icons/github.svg" alt="Github" /></a>
-        <a href="https://www.linkedin.com/in/joe-karasek/"><img className="marquee__social-icon" src="/icons/linkedin.svg" alt="LinkedIn" /></a>
-        <a href="https://twitter.com/karasek_joe"><img className="marquee__social-icon" src="/icons/twitter.svg" alt="Twitter" /></a>
-        <a href="mailto:jozin.joe@gmail.com"><img className="marquee__social-icon" src="/icons/email.svg" alt="Email" /></a>
+        <a className="marquee__social-icon" href="https://github.com/joekarasek"><img src="/icons/github.svg" alt="Github" /></a>
+        <a className="marquee__social-icon" href="https://www.linkedin.com/in/joe-karasek/"><img src="/icons/linkedin.svg" alt="LinkedIn" /></a>
+        <a className="marquee__social-icon" href="https://twitter.com/karasek_joe"><img src="/icons/twitter.svg" alt="Twitter" /></a>
+        <a className="marquee__social-icon" href="mailto:jozin.joe@gmail.com"><img src="/icons/email.svg" alt="Email" /></a>
       </div>
     </div>
   </header>

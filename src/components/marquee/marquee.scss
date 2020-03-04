@@ -93,9 +93,16 @@
     color: $my-maize;
     fill: $my-maize;
     width: 40px;
+    will-change: transform;
+    transition: transform 0.3s ease-in;
     path {
       color: $my-maize;
       fill: $my-maize;
+    }
+    &:focus,
+    &:hover {
+      outline: none;
+      transform: scale(1.4);
     }
   }
 
