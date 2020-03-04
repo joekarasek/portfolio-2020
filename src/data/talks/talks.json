@@ -39,5 +39,15 @@
     "name": "Launching a Career in Tech",
     "date": "1-15-2020",
     "location": "Epicodus Lunch Time Speaker Series"
+  },
+  {
+    "name": "Launching a Career in Tech",
+    "date": "2-07-2020",
+    "location": "The Tech Academy"
+  },
+  {
+    "name": "Scaling Gatsby and React for Enterprise Websites",
+    "date": "2-11-2020",
+    "location": "PDX ReactJS Meetup at New Relic"
   }
 ]
