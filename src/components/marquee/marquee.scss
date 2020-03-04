@@ -113,19 +113,30 @@
 
   &__link {
     color: white;
-    padding: 5px 0 5px 5px;
+    padding: 10px 0 10px 10px;
     border-bottom: solid 2px white;
     background-color: teal;
     text-decoration: none;
+    &:focus,
     &:hover {
+      outline: none;
       background-color: $my-pastel-brick;
+      .header__link-icon {
+        transform: rotate(0deg);
+      }
     }
   }
 
   &__link-icon {
     display: inline;
-    width: 10px;
+    width: 12px;
+    margin: 0;
     fill: white;
-    padding-right: 10px;
+    transform: rotate(-90deg);
+    will-change: transform;
+    transition: transform .3s ease-in 0.05s;
+    + span {
+      padding-left: 10px;
+    }
   }
 }

@@ -17,27 +17,27 @@ export const Marquee = () => (
       <nav className="header__nav">
         <a href="#projects" className="header__link">
           <img className="header__link-icon" src="/icons/hand-point-down-solid.svg" alt="pointing down" />
-          Portfolio
+          <span>Portfolio</span>
         </a>
         <a href="#interests" className="header__link">
           <img className="header__link-icon" src="/icons/hand-point-down-solid.svg" alt="pointing down" />
-          Interests
+          <span>Interests</span>
         </a>
         <a href="#skills" className="header__link">
           <img className="header__link-icon" src="/icons/hand-point-down-solid.svg" alt="pointing down" />
-          Skills
+          <span>Skills</span>
         </a>
         <a href="#talks" className="header__link">
           <img className="header__link-icon" src="/icons/hand-point-down-solid.svg" alt="pointing down" />
-          Talks
+          <span>Talks</span>
         </a>
         {/*<a href="#about" className="header__link">*/}
         {/*  <img className="header__link-icon" src="/icons/hand-point-down-solid.svg" alt="pointing down" />*/}
-        {/*  About Me*/}
+        {/*<span>About Me</span>*/}
         {/*</a>*/}
         <a href="#contact" className="header__link">
           <img className="header__link-icon" src="/icons/hand-point-down-solid.svg" alt="pointing down" />
-          Contact
+          <span>Contact</span>
         </a>
       </nav>
       <div className="header__social">
