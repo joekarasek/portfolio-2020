@@ -1,7 +1,7 @@
 import React from 'react';
-import './header.scss';
+import './marquee.scss';
 
-export const Header = () => (
+export const Marquee = () => (
   <header className="header">
     <div className="header__wrapper">
       <h1 className="header__title">Joe Karasek</h1>

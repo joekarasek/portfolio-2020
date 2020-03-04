@@ -4,7 +4,6 @@ export { Chip } from './chip/chip';
 export { Column } from './grid/column';
 export { Container } from './container/container';
 export { Grid } from './grid/grid';
-export { Header } from './header/header';
+export { Marquee } from './marquee/marquee';
 export { Headline } from './headline/headline';
-export { Layout } from './layout/layout';
 export { SiteMeta } from './site-meta/site-meta';
