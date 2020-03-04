@@ -1,6 +1,6 @@
 @import "../../styles/core";
 
-.header {
+.marquee {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -121,7 +121,7 @@
     &:hover {
       outline: none;
       background-color: $my-pastel-brick;
-      .header__link-icon {
+      .marquee__link-icon {
         transform: rotate(0deg);
       }
     }
