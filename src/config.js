@@ -5,7 +5,6 @@ module.exports = {
   url: 'https://joekarasek.com',
   legalName: 'Joe Karasek',
   defaultDescription: "Senior Software Engineer | Javascript | FrontEnd | Design Systems | Web Apps | Leadership and Mentoring",
-  googleAnalyticsID: 'UA-159627497-1',
   themeColor: '#4ECDC4',
   backgroundColor: '#12161a',
 };
