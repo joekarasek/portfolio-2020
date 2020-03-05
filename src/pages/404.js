@@ -1,5 +1,5 @@
 import React from 'react';
-import { Layout, SiteMeta } from 'components';
+import { SiteMeta } from 'components';
 
 export default () => (
   <>
