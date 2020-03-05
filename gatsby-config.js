@@ -41,13 +41,13 @@ module.exports = {
     //     showSpinner: false,
     //   },
     // },
-    // {
-    //   resolve: 'gatsby-plugin-google-analytics',
-    //   options: {
-    //     trackingId: "UA-159627497-1",
-    //     head: true,
-    //   },
-    // },
+    {
+      resolve: 'gatsby-plugin-google-analytics',
+      options: {
+        trackingId: "UA-159627497-1",
+        head: true,
+      },
+    },
     {
       resolve: 'gatsby-plugin-favicon',
       options: {
