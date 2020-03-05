@@ -1,0 +1,45 @@
+{
+  "weight": 100,
+  "title": "Front End/ Theming Consultation",
+  "client": "City of Portland",
+  "date": {
+    "start": "2019-08"
+  },
+  "description": "As a senior frontend developer and consultant, I was brought onto this project to help refactor and build out the theme for the City of Portland website. The City of Portland website is a massive domain, as it covers hundreds of departments, offices, advisory groups, project, and services. In addition to its massive scale, the City's website has spefic priorities to offer accessible, easy to navigate information and design. Creating a scalable, extendable, and maintainable theme for a website of this scale is a unique challenge, and I was brought on to provide expertise in creating such a system. In addition to extensive development and consultanting within the theming layer, I have also provided invaluable assistance in improving the performance of scripts, tooling, CI/CD, and docker configuration.",
+  "deliverables": [
+    "Implemented Pattern Lab as a tool for managing a component library",
+    "Road-mapped major refactors to theming approach",
+    "Consulted on improvements around Drupal and theme integrations",
+    "Provided support to the in-house front-end developer and designer",
+    "Provided examples of modular, component based theming in Twig",
+    "Updated the theme tooling to use modern ES6+ JavaScript and Webpack",
+    "Added proper dependency pinning and caching to improve security",
+    "Re-architected CSS to use a loosely BEM/ITCSS methodology"
+  ],
+  "tech": [
+    "Drupal 8",
+    "Twig",
+    "Scss",
+    "Style Dictionary",
+    "Webpack",
+    "ES6",
+    "CircleCI",
+    "GitHub",
+    "ESLint",
+    "Docker",
+    "Lando",
+    "Pantheon"
+  ],
+  "links": [
+    {
+      "title": "Live Beta Site",
+      "url": "https://beta.portland.gov/"
+    }
+  ],
+  "images": [
+    {
+      "url": "/images/puppet.png",
+      "alt": "Puppet"
+    }
+  ]
+}
