@@ -16,7 +16,7 @@ export default ({ pageContext }) => {
   return (
     <div className="project-page">
       <div className="project-page__home container">
-        <Link to="/"><img src="/icons/home.svg" alt="Homepage"/></Link>
+        <Link to="/#projects"><img src="/icons/home.svg" alt="Homepage"/></Link>
       </div>
       <Headline headingType="h1" decoration="left">{client}</Headline>
       <div className="project-page__main container">
