@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'gatsby';
-import { Chip } from '../chip/chip';
 import './card.scss';
 
 export const Card = (
@@ -19,26 +18,26 @@ export const Card = (
        images = []
     }) => (
       <Link to={fields.slug} className="card">
-        {images[0] ? (
-          <div className="card__image" style={{ backgroundImage: `url(${images[0].url})` }} />
-        ) : (
-          <div className="card__image" style={{ backgroundImage: "url(http://placekitten.com/g/200/300)" }} />
-        )}
         <div className="card__body">
           {client && <h4 className="card__client">{client}</h4>}
           {title && <h3 className="card__title">{title}</h3>}
         </div>
+        {images[0] ? (
+            <div className="card__image" style={{ backgroundImage: `url(${images[0].url})` }} />
+        ) : (
+            <div className="card__image" style={{ backgroundImage: "url(http://placekitten.com/g/200/300)" }} />
+        )}
       </Link>
 );
 
 Card.propTypes = {
-  title: PropTypes.string,
-  client: PropTypes.string,
+  title: PropTypes.string.isRequired,
+  client: PropTypes.string.isRequired,
   date: PropTypes.shape({
-    start: PropTypes.string,
+    start: PropTypes.string.isRequired,
     end: PropTypes.string,
-  }),
-  description: PropTypes.string,
+  }).isRequired,
+  description: PropTypes.string.isRequired,
   deliverables: PropTypes.arrayOf(PropTypes.string),
   tech: PropTypes.arrayOf(PropTypes.string),
   links: PropTypes.arrayOf(
@@ -53,4 +52,14 @@ Card.propTypes = {
       alt: PropTypes.string,
     })
   ),
+  fields: PropTypes.shape({
+    slug: PropTypes.string.isRequired,
+  }).isRequired,
+};
+
+Card.defaultProps = {
+  deliverables: null,
+  tech: null,
+  links: null,
+  images: null,
 };

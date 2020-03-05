@@ -45,7 +45,7 @@
     @include breakpoint($my-breakpoint-small) {
       display: grid;
       overflow: hidden;
-      grid-gap: 30px;
+      grid-gap: 45px;
       grid-template-columns: repeat(2, 1fr);
 
       & > * {
