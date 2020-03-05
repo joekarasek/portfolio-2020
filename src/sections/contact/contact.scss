@@ -29,5 +29,12 @@
       color: $my-maize;
       fill: $my-maize;
     }
+    will-change: transform;
+    transition: transform 0.3s ease-in;
+    &:focus,
+    &:hover {
+      outline: none;
+      transform: scale(1.4);
+    }
   }
 }
