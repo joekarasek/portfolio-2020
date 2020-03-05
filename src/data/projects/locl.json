@@ -1,20 +1,31 @@
 {
-  "title": "LOCL",
+  "weight": 85,
+  "title": "LOCL - Dynamic Business Analytics Exploration WebApp",
   "client": "Gift2Grow",
   "date": {
     "start": "2018-08",
     "end": "2018-12"
   },
-  "description": "LOCL is a PDX startup looking to provide businesses meaningful analytics. I was the tech lead and front-end developer on this single page React App (written in Typescript).",
+  "description": "Gift2Grow is a locally owned business that provides a number of services and applications to help business grow thier presence and market engagement. As the front-end lead for this project, I was responsible for building a fully functional dynamic React webapp. Features included authentication, account management, integration with a custom backend service, and a number of customizable analytic dashboards with data visualizations. I built the front-end using React, Redux, and Typescript, as well as an instance of Storybook to help organize and maintain a modular UI component library. I also helped integrate the service with third-party services including Facebook authentication and Stripe. I worked closely with the client and a freelance back-end developer to prioritize and roadmap feature developement, as well as identify technical solutions to business needs. Finally, I assisted in setting up hosting, DNS, and CI/CD integration through Github Actions.",
   "deliverables": [
+    "A fully functional webapp interface",
     "User sign-up/authentication and profile management",
-    "Business listings",
-    "An Analytics dashboard"
+    "Custimizable analytic dashboards that showed a wide variety of business metrics include user engagement through services such as Google searches",
+    "Integration with third-party services include Stripe, Facebook, Google Analytics, and a custom Python based backend",
+    "Consultation on technical feasibility and prioritization of feature development",
+    "Hosting, DNS, and CI/CD",
+    "Development workflow standardization and integration of code quality tools including automated testing"
   ],
   "tech": [
     "React",
+    "Redux",
     "Typescript",
+    "Babel",
+    "Webpack",
     "Django",
+    "Google Analytics",
+    "TravisCI",
+    "Eslint",
     "Storybook"
   ],
   "links": [
