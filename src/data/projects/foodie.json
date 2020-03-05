@@ -12,6 +12,7 @@
     "Project management including client communications, ticket tracking, and reporting",
     "Integration of services such as Stripe, Mapbox, and Sharetribe",
     "Setting up CI/CD, hosting, DNS, and a scalable workflow",
+    "Integrated analytics tracking for page views, conversions, and transactions through multiple services including Google Analytics, Hubspot, and Facebook Pixel",
     "Developed interfaces and integrations to support new client interaction workflows unique to the Foodie business model",
     "Mentored the senior developer who took over the project after 9 months"
   ],
@@ -23,6 +24,9 @@
     "Stripe",
     "Mapbox",
     "Sharetribe Flex",
+    "Google Analytics",
+    "Hubspot",
+    "Facehook Pixel",
     "Heroku",
     "CicleCI",
     "Github Actions",
