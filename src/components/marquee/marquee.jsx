@@ -18,6 +18,10 @@ export const Marquee = () => (
           <img className="marquee__link-icon" src="/icons/hand-point-down-solid.svg" alt="pointing down" />
           <span>Projects</span>
         </a>
+        <a href="#references" className="marquee__link">
+          <img className="marquee__link-icon" src="/icons/hand-point-down-solid.svg" alt="pointing down" />
+          <span>References</span>
+        </a>
         {/*<a href="#interests" className="marquee__link">*/}
         {/*  <img className="marquee__link-icon" src="/icons/hand-point-down-solid.svg" alt="pointing down" />*/}
         {/*  <span>Interests</span>*/}
