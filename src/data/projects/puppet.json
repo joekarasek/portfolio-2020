@@ -1,19 +1,25 @@
 {
-  "weight": 90,
-  "title": "Puppet.com Rebuild and Rebrand",
+  "weight": 95,
+  "title": "Marketing Site Rebuild and Rebrand",
   "client": "Puppet",
   "date": {
     "start": "2019-08",
     "end": "2019-11"
   },
-  "description": "I was brought on as a senior front-end consult and developer specifically tasked with helping to architect and build out the front-end of a JAM-stack based system.",
-  "deliverables": ["Styleguidist Guide", "Significant contribution to architecture"],
+  "description": "I was brought on as a senior front-end consult and developer specifically tasked with helping to architect and build out the front-end of a JAM-stack based system. I provided valuable expertise and mentoring in both React and Gatsby as the in-house team got up-to-speed with these technologies. I also lead the effort to architect a highly scalable modular approach to theming for the site, including the setup of tooling to support the organization and maintainance of a modular UI system. Beyond helping with front-end developement and providing React expertise, I also helped integrate the front-end with various back-end services including Wordpress. Finally, I provided assistance in optimizing CI/CD, development workflows, and scaling of a static site build to enterprise level.",
+  "deliverables": ["Roadmapping and Design Audit for a modular component based UI","Styleguidist Guide with highly automated documentation of UI components", "Assistance with integration with backend services including Wordpress", "Mentoring and expertise in React and Gatsby", "Improvements to build performance and CI/CD scripting", "Integrated the component library back into Wordpress to enable page previews"],
   "tech": [
     "React",
     "Gatsby",
+    "GraphQL",
     "Webpack",
+    "Babal",
+    "ES6+",
     "Jira",
-    "Wordpress"
+    "Wordpress",
+    "NodeCI",
+    "EsLint",
+    "Styleguidist"
   ],
   "links": [
     {

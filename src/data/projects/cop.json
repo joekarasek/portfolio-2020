@@ -28,7 +28,8 @@
     "ESLint",
     "Docker",
     "Lando",
-    "Pantheon"
+    "Pantheon",
+    "Jira"
   ],
   "links": [
     {
