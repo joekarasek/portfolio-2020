@@ -1,18 +1,36 @@
 {
-  "title": "Foodie - Peer-to-peer Marketplace",
+  "weight": 90,
+  "title": "Peer-to-peer Marketplace WebApp",
   "client": "Foodie",
   "date": {
     "start": "2019-01",
-    "end": "2019-07"
+    "end": "2019-09"
   },
-  "description": "Foodie is a peer-to-peer market place for home cooked meals. It is built out of React and uses Sharetribe's headless ecommerce Saas on the backend. I was the lead developer on this project.",
+  "description": "Foodie is a peer-to-peer market place for home cooked meals. It is built on React and Redux and uses Sharetribe's headless eCommerce SaaS on the backend. I was the lead developer on this project and was responsible for consulting with the client on feature development, implementation of features, project management, and integration with the backend service including interfacing with thier team based in Finland. Features for this product included user account authentication and management, integration with services such as Sharetribe and Stripe's Connect (peer to peer transaction management). I also setup hosting, development/git workflow with multiple environments, and CI/CD through CircleCI and Heroku. , ",
   "deliverables": [
     "Providing technical leadership including scoping and feature development",
     "Project management including client communications, ticket tracking, and reporting",
-    "Integration of services such as Stripe and Mapbox",
-    "Setting up CI/CD, hosting, DNS, and a scalable workflow"
+    "Integration of services such as Stripe, Mapbox, and Sharetribe",
+    "Setting up CI/CD, hosting, DNS, and a scalable workflow",
+    "Developed interfaces and integrations to support new client interaction workflows unique to the Foodie business model",
+    "Mentored the senior developer who took over the project after 9 months"
   ],
-  "tech": [],
+  "tech": [
+    "React",
+    "Redux",
+    "Webpack",
+    "Babal",
+    "Stripe",
+    "Mapbox",
+    "Sharetribe Flex",
+    "Heroku",
+    "CicleCI",
+    "Github Actions",
+    "Scss",
+    "Redux",
+    "EsLint",
+    "StyleLint"
+  ],
   "links": [
     {
       "title": "Foodie",
