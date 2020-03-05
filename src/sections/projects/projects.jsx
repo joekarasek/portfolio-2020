@@ -11,6 +11,7 @@ export const Projects = () => {
       {
         allProjectsJson {
           nodes {
+            weight
             title
             tech
             client
@@ -44,12 +45,13 @@ export const Projects = () => {
       <div className="projects section container">
         <p className="projects__lead">Below is a collection of some of the recent projects I have worked on.</p>
         <p className="projects__help-text">
-        Swipe left to see more...
+          Swipe left to see more...
         </p>
         <div className="projects__grid">
-          {nodes.sort((currentNode, nextNode) => new Date(nextNode.date.start) - new Date(currentNode.date.start)).map(node => (
-            <Card key={node.id} {...node} />
-        ))}
+          {nodes
+            .sort(({weight: currentNodeWeight = 0}, {weight: nextNodeWeight = 0}) => nextNodeWeight - currentNodeWeight)
+            .map(node => <Card key={node.id} {...node} />)
+          }
           <div className="projects__scroll-fix-spacer" />
         </div>
 
