@@ -1,4 +1,5 @@
 {
+  "weight": 92,
   "title": "Brand Refresh and Design System Refactor",
   "client": "Memorial Sloan Kettering",
   "date": {
@@ -29,7 +30,7 @@
     {
       "title": "Memorial Sloab Kettering Cancer Center - Live Site",
       "url": "https://www.mskcc.org/"
-    },
+    }
   ],
   "images": [
     {
