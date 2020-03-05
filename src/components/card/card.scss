@@ -1,6 +1,7 @@
 @import "../../styles/core";
 
 .card {
+  margin-top: 0;
   display: flex;
   flex-direction: column;
   background-color: $my-grey-dark;
@@ -27,7 +28,7 @@
     height: 300px;
     margin-top: 10px;
     margin-left: 10px;
-    box-shadow: inset 0 0 0 150px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 0 0 150px rgba(0, 0, 0, 0.4);
     will-change: box-shadow;
     transform: box-shadow 0.3s ease-in 0.05s;
   }

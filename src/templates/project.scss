@@ -104,9 +104,13 @@
       writing-mode: vertical-lr;
     }
 
-    div {
+    &__body {
       padding-left: 10px;
       border-left: solid 5px $my-seafoam;
     }
+  }
+
+  &__link {
+    display: block;
   }
 }

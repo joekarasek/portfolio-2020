@@ -31,10 +31,19 @@ h6,
 p,
 pre,
 li,
-b {
-  margin-top: 0.5em;
+b,
+a {
+  margin-top: 1em;
   margin-bottom: 0;
   line-height: 1.2;
+}
+
+p,
+pre,
+li,
+b,
+a {
+  line-height: 1.7;
 }
 
 :first-child {

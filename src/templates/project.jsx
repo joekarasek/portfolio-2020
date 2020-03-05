@@ -16,7 +16,7 @@ export default ({ pageContext }) => {
   return (
     <div className="project-page">
       <div className="project-page__home container">
-        <Link to="/#projects"><img src="/icons/home.svg" alt="Homepage"/></Link>
+        <Link to="/#projects"><img src="/icons/home.svg" alt="Homepage" /></Link>
       </div>
       <Headline headingType="h1" decoration="left">{client}</Headline>
       <div className="project-page__main container">
@@ -38,10 +38,10 @@ export default ({ pageContext }) => {
         )}
         {links.length !== 0 && (
           <div className="project-page__links-wrapper">
-          <h3>Links</h3>
-          <div>
-          {links.map(link => <a key={link.title} href={link.url || link.link}>{link.title}</a>)}
-          </div>
+            <h3>Links</h3>
+            <div className="project-page__links-wrapper__body">
+              {links.map(link => <a className="project-page__link" key={link.title} href={link.url || link.link}>{link.title}</a>)}
+            </div>
           </div>
         )}
       </div>
