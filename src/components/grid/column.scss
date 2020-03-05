@@ -7,6 +7,11 @@
   .my-column--base-span-#{$i} {
     grid-column-end: span #{$i};
   }
+  @media screen and (max-width: $my-breakpoint-xxsmall) {
+    .my-column--base-span-#{$i} {
+      grid-column-end: span 10;
+    }
+  }
 }
 
 @for $i from 0 through 12 {

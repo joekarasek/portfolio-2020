@@ -5,6 +5,11 @@
   align-items: center;
   justify-content: center;
   height: 80vh;
+
+  &.section {
+    margin-bottom: 0;
+  }
+
   &__social {
     min-width: 300px;
     display: flex;

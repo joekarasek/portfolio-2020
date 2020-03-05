@@ -41,7 +41,7 @@ export const Projects = () => {
   return (
     <>
       <span id="projects" />
-      <Headline decoration="left" className="projects__title">Portfolio</Headline>
+      <Headline decoration="left" className="projects__title">Projects</Headline>
       <div className="projects section container">
         <p className="projects__lead">Below is a collection of some of the recent projects I have worked on.</p>
         <p className="projects__help-text">

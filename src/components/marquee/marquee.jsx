@@ -2,7 +2,7 @@ import React from 'react';
 import './marquee.scss';
 
 export const Marquee = () => (
-  <header className="marquee">
+  <header className="marquee section">
     <div className="marquee__wrapper">
       <h1 className="marquee__title">Joe Karasek</h1>
       <h2 className="marquee__subtitle">Web Developer</h2>
@@ -10,14 +10,13 @@ export const Marquee = () => (
         <p className="marquee__item">Design Systems</p>
         <p className="marquee__item">Tech Lead</p>
         <p className="marquee__item">Javascript</p>
-        <p className="marquee__item">CSS</p>
-        <p className="marquee__item">HTML</p>
+        <p className="marquee__item">HTML / CSS</p>
         <p className="marquee__item">Tooling</p>
       </div>
       <nav className="marquee__nav">
         <a href="#projects" className="marquee__link">
           <img className="marquee__link-icon" src="/icons/hand-point-down-solid.svg" alt="pointing down" />
-          <span>Portfolio</span>
+          <span>Projects</span>
         </a>
         {/*<a href="#interests" className="marquee__link">*/}
         {/*  <img className="marquee__link-icon" src="/icons/hand-point-down-solid.svg" alt="pointing down" />*/}
