@@ -5,13 +5,14 @@
     "start": "2018-12",
     "end": "2019-06"
   },
-  "description": "Memorial Sloan Kettering is one of the top cancer research and treatment institues. I helped implement a massive code refactor and brand refresh. This included a complete component library rebuild and migration from Pattern Lab to our system Knapsack, as well as modernization of tooling and processes. In addition to working on the front end, I also consulted on and helped implemented QA automation.",
+  "description": "Memorial Sloan Kettering is one of the top cancer research and treatment institutes. I helped implement a massive refactor to thier theming architecture, while concurrently implementing a brand refresh. This included a complete audit of the existing component library and the creation of a roadmap for migrating the existing system in one with fewer, more intentional design patterns. We migrated the docuementation of thier modular UI components from Pattern Lab into Basalt's inhouse product called Knapsack (of which I am a major contributor). I also improved the developement workflow my optimizing and modernizing frontend tooling including Scss compiling. An important part of this process for MSK was to improve the rate of innovation and delivery while maintaining quality. To this end, I consulted and helped setup a more rebust and informative  automated qualtiy assurance testing in CI/CD, including an effective reporting system with its own custom React reporting GUI.",
   "deliverables": [
-    "Audit of the existing system, interface inventory, and roadmap",
-    "Rebuild of scss architecture",
-    "Brand refresh",
-    "Update to tooling and scripts",
-    "QA automation, CI/CD, Cypress, and reporting"
+    "Audit of the existing modular UI library, interface inventory for new designs, and roadmaping for a brand refresh",
+    "Rebuild of scss architecture adopting a more structured combination of ITCSS and BEM",
+    "Assetance in the role out of a branch refresh",
+    "Update to tooling and scripts, including optimation of theme builds",
+    "QA automation audit and consultation on improvements",
+    "Setting up crossbrowser testing for visual regression, accessibility, and end-to-end functionablity testing with Selenium and Cypress.io"
   ],
   "tech": [
     "Drupal",
@@ -29,10 +30,6 @@
       "title": "Memorial Sloab Kettering Cancer Center - Live Site",
       "url": "https://www.mskcc.org/"
     },
-    {
-      "title": "Memorial Sloab Kettering Cancer Center - Live Site",
-      "url": "https://www.mskcc.org/"
-    }
   ],
   "images": [
     {
