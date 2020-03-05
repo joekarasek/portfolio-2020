@@ -4,7 +4,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 80vh;
+  height: 90vh;
 
   &.section {
     margin-bottom: 0;
@@ -17,7 +17,6 @@
     justify-content: space-between;
     grid-row: 3;
     grid-column: 1 / span 4;
-    padding-bottom: $my-space-sm;
     border-bottom: solid $my-space-sm $my-pastel-red;
     padding: $my-space-sm;
     @include breakpoint($my-breakpoint-medium) {
