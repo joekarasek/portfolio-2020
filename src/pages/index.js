@@ -9,7 +9,7 @@ export default () => (
     <Marquee />
     <SiteMeta />
     <Projects />
-    <Interests />
+    {/*<Interests />*/}
     <Skills />
     <Talks />
     <Contact />
