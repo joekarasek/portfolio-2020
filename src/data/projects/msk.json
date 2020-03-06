@@ -34,8 +34,20 @@
   ],
   "images": [
     {
-      "url": "/images/aaas.png",
-      "alt": "AAAS.org - Search Page"
+      "url": "/images/msk-1.png",
+      "alt": "Memorial Sloan Kettering"
+    },
+    {
+      "url": "/images/msk-2.png",
+      "alt": "Memorial Sloan Kettering"
+    },
+    {
+      "url": "/images/msk-3.png",
+      "alt": "Memorial Sloan Kettering"
+    },
+    {
+      "url": "/images/msk.png",
+      "alt": "Memorial Sloan Kettering"
     }
   ]
 }

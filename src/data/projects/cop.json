@@ -39,8 +39,16 @@
   ],
   "images": [
     {
-      "url": "/images/puppet.png",
-      "alt": "Puppet"
+      "url": "/images/cop-1.jpg",
+      "alt": "City of Portland Website"
+    },
+    {
+      "url": "/images/cop-2.jpg",
+      "alt": "City of Portland Website"
+    },
+    {
+      "url": "/images/cop-3.jpg",
+      "alt": "City of Portland Website"
     }
   ]
 }
