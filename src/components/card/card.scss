@@ -9,6 +9,8 @@
   cursor: pointer;
   border-left: solid 5px $my-pastel-red;
   border-top: solid 5px $my-pastel-red;
+  width: 100%;
+  text-decoration: none;
 
   &:hover,
   &:focus {
@@ -47,11 +49,13 @@
 
   &__client {
     color: $my-maize;
+    text-decoration: none;
   }
 
   &__title {
     color: white;
     margin-top: 0;
     margin-bottom: 20px;
+    text-decoration: none;
   }
 }

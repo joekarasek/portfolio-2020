@@ -1,4 +1,5 @@
 import React from 'react';
+import Fade from 'react-reveal/Fade';
 import { graphql, useStaticQuery } from 'gatsby';
 import { Headline } from '../../components';
 import './interests.scss';
@@ -20,7 +21,7 @@ export const Interests = () => {
   );
 
   return (
-    <>
+    <Fade>
       <span id="interests" />
       <Headline className="interests__title">Professional Interests</Headline>
       <div className="interests section container">
@@ -31,7 +32,7 @@ export const Interests = () => {
           </article>
           ))}
       </div>
-    </>
+    </Fade>
   );
 }
 

@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactWordcloud from 'react-wordcloud';
+import Fade from 'react-reveal/Fade';
 import { Headline } from '../../components';
 import './skills.scss';
 import softSkills from '../../data/skills/soft-skills';
@@ -23,7 +24,7 @@ export const Skills = () => {
   };
 
   return (
-    <>
+    <Fade>
       <span id="skills" />
       <Headline decoration="left" className="skills__title">Skills</Headline>
       <div className="skills section container">
@@ -31,7 +32,7 @@ export const Skills = () => {
           <ReactWordcloud options={options} words={techSkills.words.concat(softSkills.words)} minSize={[300, 400]} key={techSkills.title} />
         </div>
       </div>
-    </>
+    </Fade>
   );
 };
 

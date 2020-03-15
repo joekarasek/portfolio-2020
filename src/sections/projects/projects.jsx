@@ -1,4 +1,5 @@
 import React from 'react';
+import Fade from 'react-reveal/Fade';
 import { useStaticQuery, graphql } from 'gatsby';
 import { Card, Headline } from '../../components';
 import './projects.scss';
@@ -41,7 +42,9 @@ export const Projects = () => {
   return (
     <>
       <span id="projects" />
-      <Headline decoration="left" className="projects__title">Projects</Headline>
+      <Fade>
+        <Headline decoration="left" className="projects__title">Projects</Headline>
+      </Fade>
       <div className="projects section container">
         <p className="projects__lead">Below is a collection of some of the recent projects I have worked on.</p>
         <p className="projects__help-text">
@@ -50,7 +53,7 @@ export const Projects = () => {
         <div className="projects__grid">
           {nodes
             .sort(({weight: currentNodeWeight = 0}, {weight: nextNodeWeight = 0}) => nextNodeWeight - currentNodeWeight)
-            .map(node => <Card key={node.id} {...node} />)
+            .map(node => <Fade key={node.id}><Card {...node} /></Fade>)
           }
           <div className="projects__scroll-fix-spacer" />
         </div>
